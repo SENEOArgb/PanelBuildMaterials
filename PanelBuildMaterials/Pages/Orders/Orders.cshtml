@@ -36,14 +36,20 @@
                             }
                         </td>
                         <td>
-                            <a asp-page="/Orders/EditOrder" asp-route-id="@order.OrderId" class="action-link">Изменить</a>
-                            <form method="post" asp-page-handler="DeleteOrder" asp-route-id="@order.OrderId" style="display:inline;">
-                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить этот заказ?');">Удалить</button>
-                            </form>
+                            @if (UserService.HasAccess("Ограниченные"))
+                            {
+                                <a asp-page="/Orders/EditOrder" asp-route-id="@order.OrderId" class="action-link">Изменить</a>
+                                <form method="post" asp-page-handler="DeleteOrder" asp-route-id="@order.OrderId" style="display:inline;">
+                                    <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить этот заказ?');">Удалить</button>
+                                </form>
+                            }
                             <a asp-page="/OrdersBuildingMaterialsServices/OrdersBuildingMaterialsServices" asp-route-id="@order.OrderId" class="go-btn">Перейти к заказу</a>
-                            <form method="post" asp-page-handler="GenerateReport" asp-route-id="@order.OrderId" style="display:inline;">
-                                <button type="submit" class="action-btn report-btn">Сделать отчет</button>
-                            </form>
+                            @if (UserService.HasAccess("Ограниченные"))
+                            {
+                                <form method="post" asp-page-handler="GenerateReport" asp-route-id="@order.OrderId" style="display:inline;">
+                                    <button type="submit" class="action-btn report-btn">Сделать отчет</button>
+                                </form>
+                            }
                         </td>
                     </tr>
                 }
@@ -57,11 +63,14 @@
         </tbody>
     </table>
 
-    <div class="buttons">
-        <div class="add-btn-container">
-            <a asp-page="/Orders/CreateOrder" class="add-btn">Добавить заказ</a>
+    @if (UserService.HasAccess("Ограниченные"))
+    {
+        <div class="buttons">
+            <div class="add-btn-container">
+                <a asp-page="/Orders/CreateOrder" class="add-btn">Добавить заказ</a>
+            </div>
         </div>
-    </div>
+    }
 
     <div class="pagination-container">
         @if (Model.CurrentPage > 1)

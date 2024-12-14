@@ -14,7 +14,10 @@
                 <th>Услуга</th>
                 <th>Количество</th>
                 <th>Цена</th>
-                <th>Действия</th>
+                @if (UserService.HasAccess("Ограниченные"))
+                {
+                    <th>Действия</th>
+                }
             </tr>
         </thead>
         <tbody>
@@ -33,12 +36,15 @@
 
                     <td>@item.CountBuildingMaterial</td>
                     <td>@item.OrderPrice</td>
-                    <td>
-                        <a asp-page="/OrdersBuildingMaterialsServices/EditMaterialsServices" asp-route-id="@item.BuildingMaterialServiceOrderId" class="action-link">Изменить</a>
-                        <form method="post" asp-page-handler="Delete" asp-route-id="@item.BuildingMaterialServiceOrderId" style="display:inline;">
-                            <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить эту ?');">Удалить</button>
-                        </form>
-                    </td>
+                    @if (UserService.HasAccess("Ограниченные"))
+                    {
+                        <td>
+                            <a asp-page="/OrdersBuildingMaterialsServices/EditMaterialsServices" asp-route-id="@item.BuildingMaterialServiceOrderId" class="action-link">Изменить</a>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@item.BuildingMaterialServiceOrderId" style="display:inline;">
+                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить эту ?');">Удалить</button>
+                            </form>
+                        </td>
+                    }
                 </tr>
             }
         </tbody>
@@ -47,9 +53,12 @@
     <!-- Отображение общей стоимости заказа -->
     <h3>Общая стоимость заказа: @Model.TotalOrderPrice</h3>
 
-    <div class="add-btn-container">
-        <a href="/OrdersBuildingMaterialsServices/CreateMaterialsServices/@Model.Order.OrderId" class="add-btn">Добавить запись</a>
-    </div>
+    @if (UserService.HasAccess("Ограниченные"))
+    {
+        <div class="add-btn-container">
+            <a href="/OrdersBuildingMaterialsServices/CreateMaterialsServices/@Model.Order.OrderId" class="add-btn">Добавить запись</a>
+        </div>
+    }
 
     <a asp-page="/Orders/Orders" class="go-btn">Назад к заказам</a>
 

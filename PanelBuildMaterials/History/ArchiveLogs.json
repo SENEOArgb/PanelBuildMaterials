@@ -1,0 +1,23 @@
+[
+  {
+    "ArchiveLogId": 1553,
+    "UserId": 11,
+    "DateTimeLog": "2024-12-12T14:09:16.197",
+    "LogDescription": "\u0417\u0430\u043F\u0438\u0441\u044C \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430.",
+    "UserLogin": "\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C"
+  },
+  {
+    "ArchiveLogId": 1552,
+    "UserId": 11,
+    "DateTimeLog": "2024-12-12T14:09:16.19",
+    "LogDescription": "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u044B \u0432 \u0411\u0414.",
+    "UserLogin": "\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C"
+  },
+  {
+    "ArchiveLogId": 1551,
+    "UserId": 11,
+    "DateTimeLog": "2024-12-12T14:09:16.173",
+    "LogDescription": "\u0414\u0435\u0442\u0430\u043B\u044C \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0432 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442.",
+    "UserLogin": "kassir"
+  }
+]

@@ -1,0 +1,30 @@
+﻿@page
+@model PanelBuildMaterials.Pages.ArchiveLogs.ArchiveLogsModel
+@{
+    ViewData["Title"] = "Архивированные логи";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Архивированные логи</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Пользователь</th>
+                <th>Дата и время</th>
+                <th>Описание</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var log in Model.ArchiveLogs)
+            {
+                <tr>
+                    <td>@log.ArchiveLogId</td>
+                    <td>@log.UserLogin</td>
+                    <td>@log.DateTimeLog.ToString("dd.MM.yyyy HH:mm:ss")</td>
+                    <td>@log.LogDescription</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
