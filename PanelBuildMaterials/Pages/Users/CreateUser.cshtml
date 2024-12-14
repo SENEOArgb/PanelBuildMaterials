@@ -1,0 +1,28 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Users.CreateUserModel
+@{
+    ViewData["Title"] = "Добавить пользователя";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Добавить пользователя</h1>
+    <div class="form-group">
+        <label asp-for="NewUser.UserLogin">Логин</label>
+        <input asp-for="NewUser.UserLogin" class="form-control" />
+        <span asp-validation-for="NewUser.UserLogin" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewUser.UserPassword">Пароль</label>
+        <input asp-for="NewUser.UserPassword" type="password" class="form-control" />
+        <span asp-validation-for="NewUser.UserPassword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewUser.UserLaws">Права пользователя</label>
+        <select asp-for="NewUser.UserLaws" class="form-control">
+            <option value="Полные">Полные</option>
+            <option value="Ограниченные">Ограниченные</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+    <a asp-page="/Users/Users" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>

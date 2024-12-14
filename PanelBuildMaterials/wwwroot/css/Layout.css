@@ -1,0 +1,48 @@
+﻿/* Header стили */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+    /* Логотип */
+    header .logo img {
+        height: 50px;
+    }
+
+    /* Навигация */
+    header nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+            header nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-family: "Times New Roman", serif;
+                font-size: 18px;
+            }
+
+                header nav ul li a:hover {
+                    color: #ffdf00; /* Цвет текста при наведении */
+                }
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    margin-top: auto;
+}

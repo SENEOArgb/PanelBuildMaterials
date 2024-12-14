@@ -1,0 +1,63 @@
+﻿@page "{id:int}"
+@model PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices.EditMaterialsServicesModel
+@{
+    ViewData["Title"] = "Изменить запись заказа";
+}
+<div class="manip-page">
+    <form class="form-manip" method="post">
+        <h1 class="text-center">Изменить запись заказа №@Model.BuildingMaterialsServices.OrderId</h1>
+        <input type="hidden" asp-for="BuildingMaterialsServices.BuildingMaterialServiceOrderId" />
+        <input type="hidden" asp-for="BuildingMaterialsServices.OrderId" />
+        <div class="form-group">
+            <label>Материал:</label>
+            <select asp-for="BuildingMaterialsServices.BuildingMaterialId" asp-items="Model.Materials" class="form-control"></select>
+        </div>
+        <div class="form-group">
+            <label>Услуга:</label>
+            <select asp-for="BuildingMaterialsServices.ServiceId" asp-items="Model.Services" class="form-control"></select>
+        </div>
+        <div class="form-group">
+            <label>Количество материалов:</label>
+            <input asp-for="BuildingMaterialsServices.CountBuildingMaterial" type="number" min="1" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Цена заказа:</label>
+            <input asp-for="BuildingMaterialsServices.OrderPrice" type="number" step="0.01" min="0" class="form-control" required readonly />
+        </div>
+        <button type="button" id="calculatePriceButton" class="btn btn-secondary">Рассчитать стоимость</button>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+        <a asp-page="/OrdersBuildingMaterialsServices/OrdersBuildingMaterialsServices" asp-route-id="@Model.BuildingMaterialsServices.OrderId" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+    </form>
+</div>
+@section Scripts {
+    <script>
+        document.querySelector('#calculatePriceButton').addEventListener('click', function () {
+            const materialId = Number(document.querySelector('select[name="BuildingMaterialsServices.BuildingMaterialId"]').value);
+            const serviceId = Number(document.querySelector('select[name="BuildingMaterialsServices.ServiceId"]').value);
+            const count = Number(document.querySelector('input[name="BuildingMaterialsServices.CountBuildingMaterial"]').value);
+
+            if (materialId > 0 && serviceId > 0 && count > 0) {
+                fetch(`/api/CalculatePrice/CalculatePrice?materialId=${materialId}&serviceId=${serviceId}&count=${count}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error("Ошибка при запросе: " + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data.orderPrice !== undefined) {
+                            document.querySelector('input[name="BuildingMaterialsServices.OrderPrice"]').value = data.orderPrice.toFixed(2);
+                        } else {
+                            alert("Ошибка расчёта стоимости: " + (data.error || "Неизвестная ошибка"));
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Ошибка при вычислении стоимости", error);
+                        alert("Ошибка при вычислении стоимости. Проверьте введённые данные.");
+                    });
+            } else {
+                alert('Пожалуйста, выберите материал, услугу и укажите корректное количество.');
+            }
+        });
+    </script>
+}

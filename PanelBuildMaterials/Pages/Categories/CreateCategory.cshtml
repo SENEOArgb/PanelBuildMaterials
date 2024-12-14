@@ -1,0 +1,17 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Categories.CreateCategoryModel
+@{
+    ViewData["Title"] = "Добавить категорию";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Добавить категорию</h1>
+    <div class="form-group">
+        <label>Название категории:</label>
+        <input type="text" asp-for="Category.NameCategory" class="form-control"/>
+        <span asp-validation-for="Category.NameCategory" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+    <a href="/Categories/Categories" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>
+

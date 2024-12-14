@@ -1,0 +1,36 @@
+﻿@page 
+@model PanelBuildMaterials.Pages.BuildingMaterials.EditBuildingMaterialsModel
+@{
+    ViewData["Title"] = "Редактировать стройматериал";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Редактировать стройматериал @Model.BuildingMaterials.NameBuildingMaterial</h1>
+    <!-- Скрытое поле для передачи ID материала -->
+    <input type="hidden" asp-for="BuildingMaterials.BuildingMaterialId" />
+
+    <div class="form-group">
+        <label asp-for="BuildingMaterials.NameBuildingMaterial" class="form-label">Наименование стройматериала:</label>
+        <input asp-for="BuildingMaterials.NameBuildingMaterial" class="form-control" />
+        <span asp-validation-for="BuildingMaterials.NameBuildingMaterial" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BuildingMaterials.CategoryId" class="form-label">Категория:</label>
+        <select asp-for="BuildingMaterials.CategoryId" asp-items="Model.Categories" class="form-control">
+            <option value="">-- Выберите категорию --</option>
+        </select>
+        <span asp-validation-for="BuildingMaterials.CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BuildingMaterials.RetailPrice" class="form-label">Розничная цена:</label>
+        <input asp-for="BuildingMaterials.RetailPrice" class="form-control" />
+        <span asp-validation-for="BuildingMaterials.RetailPrice" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BuildingMaterials.WholesalePrice" class="form-label">Оптовая цена:</label>
+        <input asp-for="BuildingMaterials.WholesalePrice" class="form-control" />
+        <span asp-validation-for="BuildingMaterials.WholesalePrice" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/BuildingMaterials/BuildingMaterials" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>

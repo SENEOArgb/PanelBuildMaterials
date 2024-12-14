@@ -1,0 +1,1030 @@
+[09.12.2024 19:29:18] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 20:22:46] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 20:26:14] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:39:18] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:42:06] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:47:14] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:49:21] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:51:20] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:55:33] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[09.12.2024 23:56:55] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:01:36] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:05:26] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:07:09] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:13:18] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:13:43] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[10.12.2024 00:14:19] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[10.12.2024 00:17:09] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:19:12] UserLogin: admin, Description: Загружена страница редактирования для категории ID=1, имя: Древесные материалы
+[10.12.2024 00:19:16] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:19:19] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:19:30] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:19:33] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:19:33] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:19:39] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:21:17] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:21:19] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:21:21] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:21:23] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:21:25] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:21:28] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:21:28] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:21:30] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:25:37] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:25:52] UserLogin: admin, Description: Загружена страница редактирования для категории ID=1, имя: Древесные материалы
+[10.12.2024 00:28:00] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:28:04] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:28:07] UserLogin: admin, Description: Загружена страница редактирования для категории ID=1, имя: Древесные материалы
+[10.12.2024 00:32:34] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:42:29] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:42:35] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:42:37] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:42:38] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:42:41] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:42:41] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:44:46] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:44:48] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:47:03] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:47:13] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:48:58] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:49:02] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:49:02] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:53:21] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:53:21] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:53:37] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:53:37] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:53:41] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:53:41] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:53:41] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:53:41] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:54:05] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:54:09] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 00:54:09] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 00:54:13] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:54:16] UserLogin: admin, Description: Страница редактирования материала с ID 5 загружена успешно.
+[10.12.2024 00:54:24] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:54:30] UserLogin: admin, Description: Загружена страница редактирования для категории ID=1, имя: Древесные материалы
+[10.12.2024 00:57:14] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:57:16] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:57:21] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 00:57:24] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[10.12.2024 00:57:44] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[10.12.2024 01:00:46] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:00:50] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 01:00:50] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 01:02:11] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:08:19] UserLogin: admin, Description: Добавление материала: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Количество 40
+[10.12.2024 01:08:43] UserLogin: admin, Description: Изменение материала: Склад 1, Было: Материал Пескобетон ЦЕМРОЗ, 40 кг (Кол-во 40), Стало: Материал Пескобетон ЦЕМРОЗ, 40 кг (Кол-во 20)
+[10.12.2024 01:10:07] UserLogin: admin, Description: Изменен пользователь ID=4, Логин=user4
+[10.12.2024 01:10:13] UserLogin: admin, Description: Удален пользователь ID=4, Логин=user4
+[10.12.2024 01:10:43] UserLogin: admin, Description: Загружена страница редактирования услуги ID=5, имя: Построение тех-плана объекта, цена: 14000,00
+[10.12.2024 01:10:50] UserLogin: admin, Description: Изменена услуга: ID=5, Новое наименование: Построение тех-плана объекта, Новая стоимость: 12000,00
+[10.12.2024 01:11:17] UserLogin: admin, Description: Добавлена новая услуга: ID=7, Наименование: Оценка состояния помещения, Стоимость: 8000
+[10.12.2024 01:11:23] UserLogin: admin, Description: Удалена услуга: ID=7, Наименование: Оценка состояния помещения, Стоимость: 8000,00
+[10.12.2024 01:11:34] UserLogin: admin, Description: Добавлена новая категория: Синтетические материалы
+[10.12.2024 01:11:50] UserLogin: admin, Description: Удалена категория ID=8, имя: Синтетические материалы
+[10.12.2024 01:12:03] UserLogin: admin, Description: Загружена страница редактирования для категории ID=6, имя: Пластиковые материалы
+[10.12.2024 01:12:19] UserLogin: admin, Description: Изменена категория ID=6, новое имя: Земляные материалы
+[10.12.2024 01:12:22] UserLogin: admin, Description: Загружена страница редактирования для категории ID=6, имя: Земляные материалы
+[10.12.2024 01:12:29] UserLogin: admin, Description: Изменена категория ID=6, новое имя: Пластиковые материалы
+[10.12.2024 01:12:34] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:12:38] UserLogin: admin, Description: Загружено категорий: 6
+[10.12.2024 01:12:38] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[10.12.2024 01:13:26] UserLogin: admin, Description: Материал "Шпатлевка CRIROCK 30 кг" сохранен в базе данных.
+[10.12.2024 01:13:26] UserLogin: admin, Description: Материал "Шпатлевка CRIROCK 30 кг" успешно добавлен.
+[10.12.2024 01:13:26] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:13:31] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:13:34] UserLogin: admin, Description: Страница редактирования материала с ID 16 загружена успешно.
+[10.12.2024 01:13:59] UserLogin: admin, Description: Материал с ID 16 обновлен успешно.
+[10.12.2024 01:13:59] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:14:04] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:14:09] UserLogin: admin, Description: Удален материал с ID 16 и именем Шпатлевка CRIROCK 30 кг
+[10.12.2024 01:14:09] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:14:15] UserLogin: admin, Description: Поиск материалов по категории: Каменные
+[10.12.2024 01:14:20] UserLogin: admin, Description: Загрузка всех материалов без фильтрации
+[10.12.2024 01:15:26] UserLogin: admin, Description: Добавлен заказ: ID=5, Пользователь ID=3, Дата=05.12.2024, Время=7:20
+[10.12.2024 01:16:13] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 5
+[10.12.2024 01:16:13] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 01:16:13] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=151
+[10.12.2024 01:16:13] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 01:16:13] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=100
+[10.12.2024 01:16:13] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 01:16:13] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=20
+[10.12.2024 01:16:43] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 5
+[10.12.2024 01:16:43] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 01:16:43] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=151
+[10.12.2024 01:16:43] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 01:16:43] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=100
+[10.12.2024 01:16:43] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 01:16:43] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=20
+[10.12.2024 01:17:37] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[10.12.2024 01:17:37] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 01:17:37] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[10.12.2024 01:17:37] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 01:17:37] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=100
+[10.12.2024 01:17:37] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 01:17:37] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=20
+[10.12.2024 01:18:22] UserLogin: admin, Description: Заказ с ID 5 успешно изменен: стало - пользователь 5, дата заказа - 05.12.2024, время заказа - 7:20
+[10.12.2024 01:18:29] UserLogin: admin, Description: Удален заказ ID=5, Пользователь ID=2
+[10.12.2024 01:19:06] UserLogin: admin, Description: Изменен пользователь ID=6, Логин=user6
+[10.12.2024 01:19:14] UserLogin: admin, Description: Изменен пользователь ID=6, Логин=user6
+[10.12.2024 01:19:28] UserLogin: admin, Description: Удален пользователь ID=3, Логин=user3
+[10.12.2024 01:20:22] UserLogin: admin, Description: Поставка: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Добавлено 20, Общее количество 40
+[10.12.2024 01:20:22] UserLogin: admin, Description: Обновление контекста: Материал Пескобетон ЦЕМРОЗ, 40 кг, Новый объем: 40
+[10.12.2024 01:36:43] UserLogin: admin, Description: Ошибка при добавлении пользователя: Value cannot be null. (Parameter 'inputKey')
+[10.12.2024 02:05:57] UserLogin: admin, Description: Добавлен новый пользователь: Логин=kassaVladimir, Тип прав=Полные
+[10.12.2024 02:07:02] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[10.12.2024 02:07:02] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:07:02] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[10.12.2024 02:07:02] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:07:02] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=98
+[10.12.2024 02:07:02] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:07:02] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:07:02] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:07:02] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:07:02] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:08:21] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:08:21] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:08:21] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[10.12.2024 02:08:21] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:08:21] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:08:21] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:08:21] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:08:21] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:08:21] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:08:21] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:08:25] UserLogin: admin, Description: Удалена запись ID: 9 из заказа ID: 4. Количество возвращено на склад.
+[10.12.2024 02:09:01] UserLogin: admin, Description: Добавлен заказ: ID=6, Пользователь ID=10, Дата=05.12.2024, Время=6:15
+[10.12.2024 02:09:14] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 6
+[10.12.2024 02:09:14] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:09:14] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[10.12.2024 02:09:14] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:09:14] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:09:14] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:09:14] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:09:14] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:09:14] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:09:14] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:09:38] UserLogin: admin, Description: Удалена запись ID: 10 из заказа ID: 6. Количество возвращено на склад.
+[10.12.2024 02:09:43] UserLogin: admin, Description: Заказ с ID 6 успешно изменен: стало - пользователь 6, дата заказа - 05.12.2024, время заказа - 6:15
+[10.12.2024 02:09:55] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 6
+[10.12.2024 02:09:55] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:09:55] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[10.12.2024 02:09:55] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:09:55] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:09:55] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:09:55] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:09:56] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:09:56] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:09:56] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:10:23] UserLogin: admin, Description: Удален пользователь ID=5, Логин=user5
+[10.12.2024 02:26:16] UserLogin: admin, Description: Материал найден: Пескобетон ЦЕМРОЗ, 40 кг, Количество: 40
+[10.12.2024 02:38:59] UserLogin: admin, Description: Начало удаления материала с ID 6.
+[10.12.2024 02:38:59] UserLogin: admin, Description: Материал найден: Пескобетон ЦЕМРОЗ, 40 кг
+[10.12.2024 02:38:59] UserLogin: admin, Description: Материал с ID 6 успешно удален.
+[10.12.2024 02:38:59] UserLogin: admin, Description: Перенаправление на страницу склада после удаления материала.
+[10.12.2024 02:39:34] UserLogin: admin, Description: Добавление материала: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Количество 40
+[10.12.2024 02:40:00] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:40:00] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:40:00] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 02:40:00] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:40:00] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:40:00] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:40:01] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:40:19] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:40:19] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:40:19] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 02:40:19] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:40:19] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:40:19] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:40:19] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=35
+[10.12.2024 02:40:19] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:40:19] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:40:19] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:41:23] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:41:23] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:41:23] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 02:41:23] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=690
+[10.12.2024 02:41:23] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:41:23] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:41:23] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=35
+[10.12.2024 02:41:23] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:41:23] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:41:23] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:42:08] UserLogin: admin, Description: Начало удаления материала с ID 7.
+[10.12.2024 02:42:08] UserLogin: admin, Description: Материал найден: Пескобетон ЦЕМРОЗ, 40 кг
+[10.12.2024 02:42:08] UserLogin: admin, Description: Удаление 1 заказов, связанных с материалом 7.
+[10.12.2024 02:42:08] UserLogin: admin, Description: Материал с ID 7 успешно удален.
+[10.12.2024 02:42:08] UserLogin: admin, Description: Перенаправление на страницу склада после удаления материала.
+[10.12.2024 02:42:27] UserLogin: admin, Description: Добавление материала: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Количество 40
+[10.12.2024 02:42:53] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:42:53] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:42:53] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 02:42:53] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=690
+[10.12.2024 02:42:53] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:42:53] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:42:53] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=40
+[10.12.2024 02:42:53] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:42:53] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:42:53] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:43:09] UserLogin: admin, Description: Удалена запись ID: 12 из заказа ID: 4. Количество возвращено на склад.
+[10.12.2024 02:43:15] UserLogin: admin, Description: Удалена запись ID: 14 из заказа ID: 4. Количество возвращено на склад.
+[10.12.2024 02:43:28] UserLogin: admin, Description: Начало удаления материала с ID 8.
+[10.12.2024 02:43:28] UserLogin: admin, Description: Материал найден: Пескобетон ЦЕМРОЗ, 40 кг
+[10.12.2024 02:43:28] UserLogin: admin, Description: Материал с ID 8 успешно удален.
+[10.12.2024 02:43:28] UserLogin: admin, Description: Перенаправление на страницу склада после удаления материала.
+[10.12.2024 02:43:39] UserLogin: admin, Description: Добавление материала: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Количество 45
+[10.12.2024 02:44:03] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 02:44:03] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 02:44:03] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 02:44:03] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 02:44:03] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 02:44:03] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 02:44:03] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=45
+[10.12.2024 02:44:03] UserLogin: admin, Description: Деталь добавлена в контекст.
+[10.12.2024 02:44:03] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[10.12.2024 02:44:03] UserLogin: admin, Description: Запись успешно добавлена.
+[10.12.2024 02:44:45] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[10.12.2024 02:53:31] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[10.12.2024 21:57:29] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 4
+[10.12.2024 21:57:29] UserLogin: admin, Description: Найдено записей в складе: 5
+[10.12.2024 21:57:29] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[10.12.2024 21:57:29] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=695
+[10.12.2024 21:57:29] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[10.12.2024 21:57:29] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=10
+[10.12.2024 21:57:29] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=42
+[10.12.2024 21:57:29] UserLogin: admin, Description: Материал с ID 8 не найден или недоступен в достаточном количестве.
+[10.12.2024 21:57:29] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[10.12.2024 21:57:29] UserLogin: admin, Description: Складской материал не найден.
+[11.12.2024 02:03:08] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[11.12.2024 02:03:14] UserLogin: admin, Description: Страница редактирования материала с ID 2 загружена успешно.
+[11.12.2024 02:03:16] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[11.12.2024 02:03:20] UserLogin: admin, Description: Загружена страница редактирования для категории ID=1, имя: Древесные материалы
+[11.12.2024 02:03:25] UserLogin: admin, Description: Загружена страница редактирования услуги ID=1, имя: Доставка, цена: 9000,00
+[11.12.2024 17:12:25] UserLogin: admin, Description: Поиск материалов по категории: Металлические
+[11.12.2024 17:20:48] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[11.12.2024 17:24:28] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[11.12.2024 17:26:44] UserLogin: admin, Description: Материал "Поликарбонат монолитный, красный" сохранен в базе данных.
+[11.12.2024 17:26:44] UserLogin: admin, Description: Материал "Поликарбонат монолитный, красный" успешно добавлен.
+[11.12.2024 17:27:44] UserLogin: admin, Description: Поиск материалов по категории: Металлические
+[11.12.2024 17:30:54] UserLogin: admin, Description: Страница редактирования материала с ID 17 загружена успешно.
+[11.12.2024 17:35:19] UserLogin: admin, Description: Материал с ID 17 обновлен успешно.
+[11.12.2024 17:40:37] UserLogin: admin, Description: Удален материал с ID 17 и именем Поликарбонат монолитный, алый
+[11.12.2024 18:16:28] UserLogin: admin, Description: Начало удаления материала с ID 5.
+[11.12.2024 18:16:28] UserLogin: admin, Description: Материал найден: Брусчатка "Орфей" гранитная
+[11.12.2024 18:16:28] UserLogin: admin, Description: Материал с ID 5 успешно удален.
+[11.12.2024 18:16:28] UserLogin: admin, Description: Перенаправление на страницу склада после удаления материала.
+[11.12.2024 18:45:53] UserLogin: admin, Description: Поставка: Склад 1, Материал Цемент ROTBAND, 50 кг, Добавлено 5, Общее количество 150
+[11.12.2024 18:45:53] UserLogin: admin, Description: Обновление контекста: Материал Цемент ROTBAND, 50 кг, Новый объем: 150
+[11.12.2024 18:51:01] UserLogin: admin, Description: Поставка: Склад 1, Материал Цемент ROTBAND, 50 кг, Добавлено 20, Общее количество 170
+[11.12.2024 18:51:01] UserLogin: admin, Description: Поставка: Склад 1, Материал Брусчатка "Орфей" гранитная, Добавлено 20, Общее количество 715
+[11.12.2024 18:51:01] UserLogin: admin, Description: Поставка: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Добавлено 20, Общее количество 62
+[11.12.2024 18:51:01] UserLogin: admin, Description: Контекст перед сохранением изменений: Пескобетон ЦЕМРОЗ, 40 кг: Modified, Цемент ROTBAND, 50 кг: Unchanged, Брусчатка "Орфей" гранитная: Unchanged
+[11.12.2024 18:51:01] UserLogin: admin, Description: Ошибка: Изменения не были сохранены в базу данных.
+[11.12.2024 18:57:09] UserLogin: admin, Description: Поставка: Склад 1, Материал Цемент ROTBAND, 50 кг, Добавлено 10, Общее количество 180
+[11.12.2024 18:57:09] UserLogin: admin, Description: Поставка: Склад 1, Материал Брусчатка "Орфей" гранитная, Добавлено 10, Общее количество 725
+[11.12.2024 18:57:09] UserLogin: admin, Description: Поставка: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Добавлено 10, Общее количество 72
+[11.12.2024 18:57:09] UserLogin: admin, Description: Контекст перед сохранением изменений: Пескобетон ЦЕМРОЗ, 40 кг: Modified, Цемент ROTBAND, 50 кг: Unchanged, Брусчатка "Орфей" гранитная: Unchanged
+[11.12.2024 18:57:09] UserLogin: admin, Description: Сохранено 0 изменений в базу данных.
+[11.12.2024 18:57:09] UserLogin: admin, Description: Поставка на склад 1 завершена.
+[11.12.2024 18:57:54] UserLogin: admin, Description: Поставка: Склад 1, Материал Цемент ROTBAND, 50 кг, Добавлено 30, Общее количество 210
+[11.12.2024 18:57:54] UserLogin: admin, Description: Поставка: Склад 1, Материал Брусчатка "Орфей" гранитная, Добавлено 30, Общее количество 755
+[11.12.2024 18:57:54] UserLogin: admin, Description: Поставка: Склад 1, Материал Пескобетон ЦЕМРОЗ, 40 кг, Добавлено 30, Общее количество 102
+[11.12.2024 18:57:54] UserLogin: admin, Description: Контекст перед сохранением изменений: Пескобетон ЦЕМРОЗ, 40 кг: Modified, Цемент ROTBAND, 50 кг: Unchanged, Брусчатка "Орфей" гранитная: Unchanged
+[11.12.2024 18:57:54] UserLogin: admin, Description: Сохранено 0 изменений в базу данных.
+[11.12.2024 18:57:54] UserLogin: admin, Description: Поставка на склад 1 завершена.
+[11.12.2024 19:01:08] UserLogin: admin, Description: Поставка: Склад 1, Материал Цемент ROTBAND, 50 кг, Добавлено 10, Общее количество 220
+[11.12.2024 19:01:08] UserLogin: admin, Description: Обновление контекста: Материал Цемент ROTBAND, 50 кг, Новый объем: 220
+[11.12.2024 19:53:29] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[11.12.2024 19:53:29] UserLogin: admin, Description: Найдено записей в складе: 4
+[11.12.2024 19:53:29] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=220
+[11.12.2024 19:53:29] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[11.12.2024 19:53:29] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[11.12.2024 19:53:29] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[11.12.2024 19:53:30] UserLogin: admin, Description: Деталь добавлена в контекст.
+[11.12.2024 19:53:30] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[11.12.2024 19:53:30] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:14:59] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:14:59] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:14:59] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=170
+[12.12.2024 09:14:59] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:14:59] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:14:59] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:14:59] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 170, Запрашивается: 5
+[12.12.2024 09:14:59] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:14:59] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:15:59] UserLogin: admin, Description: Удалена запись ID: 17 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:16:08] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:16:08] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:16:08] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=170
+[12.12.2024 09:16:08] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:16:08] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:16:08] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:16:08] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 170, Запрашивается: 5
+[12.12.2024 09:16:09] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:16:09] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:16:48] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:16:48] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:16:48] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:16:48] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:16:48] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:16:48] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:16:48] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:16:48] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:17:05] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:17:05] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:17:05] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:17:05] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:17:05] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:17:05] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:17:05] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:17:05] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:17:05] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:17:14] UserLogin: admin, Description: Удалена запись ID: 18 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:22:38] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:22:38] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:22:38] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:22:38] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:22:38] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:22:38] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:22:38] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:22:38] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:22:38] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:22:52] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:22:52] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:22:52] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:22:52] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:22:52] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:22:52] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:22:52] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:22:52] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:22:52] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:23:52] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:23:52] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:23:52] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:23:52] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:23:52] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:23:52] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:23:52] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:23:52] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:23:52] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:25:00] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:25:00] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:25:00] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:25:00] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:25:00] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:25:00] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:25:00] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 165, Запрашивается: 5
+[12.12.2024 09:25:00] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:25:00] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:25:23] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:25:23] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:25:23] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=160
+[12.12.2024 09:25:23] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:25:23] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:25:23] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:25:23] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:25:23] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:25:23] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:31:12] UserLogin: admin, Description: Удалена запись ID: 20 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:31:15] UserLogin: admin, Description: Удалена запись ID: 19 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:32:07] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:32:07] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:32:07] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=165
+[12.12.2024 09:32:07] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:32:07] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:32:07] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:32:07] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 165, Запрашивается: 5
+[12.12.2024 09:32:07] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:32:07] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:32:14] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:32:14] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:32:14] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=160
+[12.12.2024 09:32:14] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:32:14] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:32:14] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:32:14] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 160, Запрашивается: 5
+[12.12.2024 09:32:14] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:32:15] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:34:25] UserLogin: admin, Description: Удалена запись ID: 21 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:34:32] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:34:32] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:34:32] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=160
+[12.12.2024 09:34:32] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:34:32] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:34:32] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:34:32] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 160, Запрашивается: 5
+[12.12.2024 09:34:32] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:34:32] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:34:32] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:34:45] UserLogin: admin, Description: Удалена запись ID: 22 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:34:54] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:34:54] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:34:54] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=160
+[12.12.2024 09:34:54] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:34:54] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:34:54] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:34:54] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 160, Запрашивается: 5
+[12.12.2024 09:34:54] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:34:54] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:35:16] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:35:16] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:35:16] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=155
+[12.12.2024 09:35:16] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:35:16] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:35:16] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:35:16] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:35:16] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:35:16] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:35:17] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:35:17] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:35:17] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=155
+[12.12.2024 09:35:17] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:35:17] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:35:17] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:35:17] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:35:17] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:35:17] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:41:33] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:41:33] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:41:33] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=155
+[12.12.2024 09:41:33] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:41:33] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:41:33] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:41:33] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 155, Запрашивается: 5
+[12.12.2024 09:41:33] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:41:33] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:41:39] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:41:39] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:41:39] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:41:39] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:41:39] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:41:39] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:41:39] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 150, Запрашивается: 5
+[12.12.2024 09:41:39] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:44:20] UserLogin: admin, Description: Удалена запись ID: 23 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:44:27] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:44:27] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:44:27] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:44:27] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:44:27] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:44:27] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:44:27] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 150, Запрашивается: 5
+[12.12.2024 09:44:27] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:44:27] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:44:27] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:44:32] UserLogin: admin, Description: Удалена запись ID: 24 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:44:47] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:44:47] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:44:47] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:44:47] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:44:47] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:44:47] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:44:47] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:44:47] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:44:47] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:44:59] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:44:59] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:44:59] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:44:59] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:44:59] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:44:59] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:44:59] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:44:59] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:44:59] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:45:05] UserLogin: admin, Description: Удалена запись ID: 25 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:50:24] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:50:24] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:50:24] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:50:24] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:50:24] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:50:24] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:50:24] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:50:24] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:50:24] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:50:35] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:50:35] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:50:35] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:50:35] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:50:35] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:50:35] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:50:35] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 150, Запрашивается: 5
+[12.12.2024 09:50:35] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:50:35] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:51:29] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:51:29] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:51:29] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[12.12.2024 09:51:29] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:51:29] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:51:29] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:51:29] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:51:29] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:51:29] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:51:37] UserLogin: admin, Description: Удалена запись ID: 27 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:51:40] UserLogin: admin, Description: Удалена запись ID: 26 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:51:47] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:51:47] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:51:47] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:51:47] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:51:47] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:51:47] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:51:47] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:51:47] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:51:47] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:51:50] UserLogin: admin, Description: Удалена запись ID: 28 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:51:58] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:51:58] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:51:58] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:51:58] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:51:58] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:51:58] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:51:58] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:51:58] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:51:58] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 09:56:08] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:56:08] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:56:08] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=150
+[12.12.2024 09:56:08] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:56:08] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:56:08] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:56:08] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 150, Запрашивается: 5
+[12.12.2024 09:56:08] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:08] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:15] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:56:15] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:56:15] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[12.12.2024 09:56:15] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:56:15] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:56:15] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:56:15] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 145, Запрашивается: 5
+[12.12.2024 09:56:15] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:16] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:19] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:56:19] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:56:19] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 09:56:19] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:56:19] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:56:19] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:56:19] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:56:19] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:56:19] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:56:24] UserLogin: admin, Description: Удалена запись ID: 29 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:56:26] UserLogin: admin, Description: Удалена запись ID: 30 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:56:41] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:56:41] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:56:41] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=145
+[12.12.2024 09:56:41] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:56:41] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:56:41] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:56:41] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 145, Запрашивается: 5
+[12.12.2024 09:56:41] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:41] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 09:56:58] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:56:58] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:56:58] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 09:56:58] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:56:58] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:56:58] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:56:58] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 09:56:58] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 09:56:58] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 09:57:03] UserLogin: admin, Description: Удалена запись ID: 31 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 09:57:08] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 09:57:08] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 09:57:08] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 09:57:08] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 09:57:08] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 09:57:08] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 09:57:08] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 09:57:08] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 09:57:08] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:00:21] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:00:21] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:00:21] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:00:21] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:00:21] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:00:21] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:00:21] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 140, Запрашивается: 5
+[12.12.2024 10:00:22] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:00:22] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:00:40] UserLogin: admin, Description: Удалена запись ID: 32 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:00:48] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:00:48] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:00:48] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:00:48] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:00:48] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:00:48] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:00:48] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:00:48] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:00:48] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:00:55] UserLogin: admin, Description: Удалена запись ID: 33 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:01:02] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:01:02] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:01:02] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:01:02] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:01:02] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:01:02] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:01:02] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:01:02] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:01:02] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:01:16] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:01:16] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:01:16] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:01:16] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:01:16] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:01:16] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:01:16] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:01:16] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:01:16] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:01:30] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:01:30] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:01:30] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:01:30] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:01:30] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:01:30] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:01:30] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:01:30] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:01:30] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:01:46] UserLogin: admin, Description: Удалена запись ID: 34 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:02:08] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:02:08] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:02:08] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:02:08] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:02:08] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:02:08] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:02:08] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:02:08] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:02:08] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:02:21] UserLogin: admin, Description: Удалена запись ID: 35 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:02:35] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:02:35] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:02:35] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:02:35] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:02:35] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:02:35] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:02:35] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:02:35] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:02:35] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:02:40] UserLogin: admin, Description: Удалена запись ID: 36 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:02:47] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:02:47] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:02:47] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:02:47] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:02:47] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:02:47] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:02:47] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:02:47] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:02:47] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:06:29] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:06:29] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:06:29] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:06:29] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:06:29] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:06:29] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:06:29] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:06:29] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:06:29] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:06:41] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:06:41] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:06:41] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:06:41] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:06:41] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:06:41] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:06:41] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 755, Запрашивается: 5
+[12.12.2024 10:06:41] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:06:41] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:06:44] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:06:44] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:06:44] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:06:44] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:06:44] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:06:44] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:06:44] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:06:44] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:06:44] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:06:47] UserLogin: admin, Description: Удалена запись ID: 38 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:06:49] UserLogin: admin, Description: Удалена запись ID: 37 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:06:59] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:06:59] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:06:59] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:06:59] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:06:59] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:06:59] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:06:59] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:06:59] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:06:59] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:07:04] UserLogin: admin, Description: Удалена запись ID: 39 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:07:12] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:07:12] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:07:12] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:07:12] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:07:12] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:07:12] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:07:12] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:07:12] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:07:12] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:07:15] UserLogin: admin, Description: Удалена запись ID: 40 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:10:27] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:10:28] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:10:28] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:10:28] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:10:28] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:10:28] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:10:28] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:10:28] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:10:28] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:10:40] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:10:40] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:10:40] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:10:40] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:10:40] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:10:40] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:10:40] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 755, Запрашивается: 5
+[12.12.2024 10:10:40] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:10:40] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:10:49] UserLogin: admin, Description: Удалена запись ID: 41 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:11:02] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:11:02] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:11:02] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:11:02] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=755
+[12.12.2024 10:11:02] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:11:02] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:11:02] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 755, Запрашивается: 5
+[12.12.2024 10:11:02] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:11:02] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:11:04] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:11:04] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:11:04] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:11:04] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:11:04] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:11:04] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:11:05] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:11:05] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:11:05] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:11:17] UserLogin: admin, Description: Удалена запись ID: 42 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:11:41] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:11:41] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:11:41] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:11:41] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:11:41] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:11:41] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:11:41] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:11:41] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:11:41] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:11:44] UserLogin: admin, Description: Удалена запись ID: 43 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:16:23] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:16:23] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:16:23] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:16:23] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:16:23] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:16:23] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:16:24] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 750, Запрашивается: 5
+[12.12.2024 10:16:24] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:16:24] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:16:26] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:16:26] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:16:26] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:16:26] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=745
+[12.12.2024 10:16:26] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:16:26] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:16:26] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:16:26] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:16:26] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:16:31] UserLogin: admin, Description: Удалена запись ID: 45 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:16:33] UserLogin: admin, Description: Удалена запись ID: 44 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:16:42] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:16:42] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:16:42] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:16:42] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:16:42] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:16:42] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:16:42] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:16:42] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:16:42] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:16:46] UserLogin: admin, Description: Удалена запись ID: 46 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:17:09] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:17:09] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:17:09] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:17:09] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:17:09] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:17:09] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:17:09] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:17:09] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:17:09] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:17:32] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:17:32] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:17:32] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:17:32] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:17:32] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:17:32] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:17:32] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:17:32] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:17:32] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:22:22] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:22:22] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:22:22] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:22:22] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:22:22] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:22:22] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:22:22] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 750, Запрашивается: 10
+[12.12.2024 10:22:22] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:22:22] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:22:31] UserLogin: admin, Description: Удалена запись ID: 47 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:22:39] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:22:40] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:22:40] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:22:40] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:22:40] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:22:40] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:22:40] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:22:40] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:22:40] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:22:46] UserLogin: admin, Description: Удалена запись ID: 48 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:22:53] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:22:53] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:22:53] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:22:53] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:22:53] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:22:53] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:22:53] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:22:53] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:22:53] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:22:58] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:22:58] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:22:58] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:22:58] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:22:58] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:22:58] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:22:58] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:22:58] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:22:58] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:18] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:18] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:18] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:18] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:18] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:18] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:18] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:18] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:18] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:19] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:19] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:19] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:19] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:19] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:19] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:19] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:19] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:19] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:22] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:22] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:22] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:22] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:22] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:22] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:22] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:22] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:22] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:23] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:23] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:23] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:23] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:23] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:23] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:23] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:23] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:23] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:39] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:39] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:39] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:39] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:39] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:39] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:39] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:39] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:39] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:23:40] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:23:40] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:23:40] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:23:40] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:23:40] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:23:40] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:23:40] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:23:40] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:23:40] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:27:22] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:27:22] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:27:22] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:27:22] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:27:22] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:27:22] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:27:22] UserLogin: admin, Description: Материал с ID  не найден или недоступен в достаточном количестве.
+[12.12.2024 10:27:22] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: Складской материал не найден.
+[12.12.2024 10:27:22] UserLogin: admin, Description: Ошибка: Складской материал не найден.
+[12.12.2024 10:27:50] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:27:50] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:27:50] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:27:50] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:27:50] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:27:50] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:27:50] UserLogin: admin, Description: Склад 1, Материал 3, Доступно: 140, Запрашивается: 5
+[12.12.2024 10:27:51] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:27:51] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:27:56] UserLogin: admin, Description: Удалена запись ID: 49 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:28:05] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:28:05] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:28:05] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:28:05] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:28:05] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:28:05] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:28:05] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 750, Запрашивается: 10
+[12.12.2024 10:28:05] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:28:05] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:28:12] UserLogin: admin, Description: Удалена запись ID: 50 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:28:21] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:28:21] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:28:21] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:28:21] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:28:21] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:28:21] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:28:21] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:28:21] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:28:21] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:28:54] UserLogin: admin, Description: Удалена запись ID: 51 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:34:06] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:34:06] UserLogin: admin, Description: Найдено записей в складе: 4
+[12.12.2024 10:34:06] UserLogin: admin, Description: Склад: 1, Материал ID=3, Количество=140
+[12.12.2024 10:34:06] UserLogin: admin, Description: Склад: 1, Материал ID=1, Количество=750
+[12.12.2024 10:34:06] UserLogin: admin, Description: Склад: 2, Материал ID=4, Количество=93
+[12.12.2024 10:34:06] UserLogin: admin, Description: Склад: 1, Материал ID=5, Количество=102
+[12.12.2024 10:34:06] UserLogin: admin, Description: Склад 1, Материал 1, Доступно: 750, Запрашивается: 5
+[12.12.2024 10:34:06] UserLogin: admin, Description: Ошибка в AddOrderDetailAsync: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:34:07] UserLogin: admin, Description: Ошибка: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+[12.12.2024 10:34:15] UserLogin: admin, Description: Удалена запись ID: 52 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:43:31] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:43:31] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:43:31] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:43:31] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:43:44] UserLogin: admin, Description: Удалена запись ID: 53 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:43:50] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:43:50] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:43:50] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:43:50] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:44:31] UserLogin: admin, Description: Удалена запись ID: 54 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:44:59] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:44:59] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:44:59] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:44:59] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:45:07] UserLogin: admin, Description: Удалена запись ID: 55 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:45:18] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:45:18] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:45:18] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:45:18] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:45:31] UserLogin: admin, Description: Удалена запись ID: 56 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:45:37] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:45:37] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:45:37] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:45:37] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:52:05] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:52:05] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:52:05] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:52:05] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:52:08] UserLogin: admin, Description: Удалена запись ID: 58 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:52:17] UserLogin: admin, Description: Удалена запись ID: 57 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 10:52:55] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 10:52:55] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 10:52:55] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 10:52:55] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 10:53:02] UserLogin: admin, Description: Удалена запись ID: 59 из заказа ID: 1. Количество возвращено на склад.
+[12.12.2024 12:12:58] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[12.12.2024 12:35:51] UserLogin: admin, Description: Поиск материалов по категории: Каменные
+[12.12.2024 12:36:03] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[12.12.2024 12:37:07] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 12:37:07] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 12:37:07] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 12:37:07] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 12:53:02] UserLogin: admin, Description: Поиск материалов по категории: Каменные
+[12.12.2024 12:53:10] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[12.12.2024 12:55:07] UserLogin: admin, Description: Попытка добавить запись для заказа с ID: 1
+[12.12.2024 12:55:07] UserLogin: admin, Description: Деталь добавлена в контекст.
+[12.12.2024 12:55:07] UserLogin: admin, Description: Изменения успешно сохранены в БД.
+[12.12.2024 12:55:07] UserLogin: admin, Description: Запись успешно добавлена.
+[12.12.2024 13:54:05] UserLogin: admin, Description: Поиск материалов по категории: Каменные
+[12.12.2024 13:54:17] UserLogin: admin, Description: Страница редактирования материала с ID 1 загружена успешно.
+[12.12.2024 13:54:37] UserLogin: admin, Description: Материал с ID 1 обновлен успешно.
+[12.12.2024 13:54:48] UserLogin: admin, Description: Страница добавления материала загружена успешно.
+[12.12.2024 13:55:08] UserLogin: admin, Description: Материал "Шпатлевка CRIROCK 30 кг" сохранен в базе данных.
+[12.12.2024 13:55:08] UserLogin: admin, Description: Материал "Шпатлевка CRIROCK 30 кг" успешно добавлен.
+[12.12.2024 13:55:51] UserLogin: admin, Description: Добавлена новая категория: аррарарарара
+[12.12.2024 13:56:07] UserLogin: admin, Description: Страница редактирования материала с ID 6 загружена успешно.
+[12.12.2024 13:56:19] UserLogin: admin, Description: Материал с ID 6 обновлен успешно.
+[12.12.2024 14:07:23] UserLogin: kassir, Description: Добавлен заказ: ID=7, Пользователь ID=11, Дата=20.12.2024, Время=17:00
+[12.12.2024 14:08:18] UserLogin: kassir, Description: Попытка добавить запись для заказа с ID: 7
+[12.12.2024 14:08:18] UserLogin: kassir, Description: Деталь добавлена в контекст.
+[12.12.2024 14:08:18] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
+[12.12.2024 14:08:18] UserLogin: kassir, Description: Запись успешно добавлена.
+[12.12.2024 14:08:46] UserLogin: kassir, Description: Удалена запись ID: 62 из заказа ID: 7. Количество возвращено на склад.
+[12.12.2024 14:09:16] UserLogin: kassir, Description: Попытка добавить запись для заказа с ID: 7
+[12.12.2024 14:09:16] UserLogin: kassir, Description: Деталь добавлена в контекст.
+[12.12.2024 14:09:16] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
+[12.12.2024 14:09:16] UserLogin: kassir, Description: Запись успешно добавлена.

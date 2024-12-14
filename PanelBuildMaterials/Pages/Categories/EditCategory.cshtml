@@ -1,0 +1,21 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Categories.EditCategoryModel
+@{
+    ViewData["Title"] = "Изменить категорию";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Изменить категорию @Model.Category.NameCategory</h1>
+    <!-- Скрытое поле для передачи ID категории -->
+    <input type="hidden" asp-for="Category.CategoryId" />
+
+    <div class="form-group">
+        <label asp-for="Category.NameCategory" class="form-label">Название категории</label>
+        <input asp-for="Category.NameCategory" class="form-control" />
+        <span asp-validation-for="Category.NameCategory" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/Categories/Categories" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>
+

@@ -1,0 +1,24 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Registration.RegistrationModel
+@{
+    ViewData["Title"] = "Регистрация";
+}
+<div class="login-page">
+    <h1 class="text-center">Регистрация</h1>
+
+    <form method="post" class="auth-form">
+        <div class="form-group">
+            <label for="UserLogin">Логин</label>
+            <input type="text" id="UserLogin" name="UserLogin" class="input-small" required />
+        </div>
+        <div class="form-group">
+            <label for="UserPassword">Пароль</label>
+            <input type="password" id="UserPassword" name="UserPassword" class="input-small" required />
+        </div>
+        <button type="submit" class="btn-primary">Зарегистрироваться</button>
+    </form>
+
+    <p class="text-center">
+        Уже есть профиль? <a href="/Login/Login" class="text-link">Войдите</a>
+    </p>
+</div>

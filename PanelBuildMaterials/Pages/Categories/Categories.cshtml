@@ -1,0 +1,60 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Categories.CategoriesModel
+@{
+    ViewData["Title"] = "Категории";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Категории</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование категории</th>
+                @if (UserService.HasAccess("Полные"))
+                {
+                    <th>Действия</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.CategoryId</td>
+                    <td>@category.NameCategory</td>
+                    @if (UserService.HasAccess("Полные"))
+                    {
+                        <td>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@category.CategoryId" style="display:inline;">
+                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить эту категорию?');">Удалить</button>
+                            </form>
+                            <a asp-page="/Categories/EditCategory" asp-route-id="@category.CategoryId" class="action-link">Изменить</a>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (UserService.HasAccess("Полные"))
+    {
+        <div class="add-btn-container">
+            <a asp-page="/Categories/CreateCategory" class="add-btn">Добавить категорию</a>
+        </div>
+    }
+
+
+    <div class="pagination-container">
+        @if (Model.CurrentPage > 1)
+        {
+            <a asp-page="Categories" asp-route-CurrentPage="@(Model.CurrentPage - 1)" class="pagination-btn">Назад</a>
+        }
+
+        <span>Страница @Model.CurrentPage из @Model.TotalPages</span>
+
+        @if (Model.CurrentPage < Model.TotalPages)
+        {
+            <a asp-page="Categories" asp-route-CurrentPage="@(Model.CurrentPage + 1)" class="pagination-btn">Вперед</a>
+        }
+    </div>
+</div>

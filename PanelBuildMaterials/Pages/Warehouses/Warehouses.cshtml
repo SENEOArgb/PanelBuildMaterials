@@ -1,0 +1,34 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Warehouses.WarehousesModel
+@{
+    ViewData["Title"] = "Склады";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Склады</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Номер склада</th>
+                <th>Город</th>
+                <th>Улица</th>
+                <th>Наименование</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var warehouse in Model.Warehouses)
+            {
+                <tr>
+                    <td>@warehouse.WarehouseId</td>
+                    <td>@warehouse.WarehouseCity</td>
+                    <td>@warehouse.WarehouseStreet</td>
+                    <td>@warehouse.WarehouseName</td>
+                    <td>
+                        <a asp-page="/WarehousesBuildingMaterials/WarehousesBuildingMaterials" asp-route-id="@warehouse.WarehouseId" class="go-btn">Перейти на склад</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

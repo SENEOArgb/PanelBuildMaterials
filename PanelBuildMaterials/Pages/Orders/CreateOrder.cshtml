@@ -1,0 +1,36 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Orders.CreateOrderModel
+@{
+    ViewData["Title"] = "Создать заказ";
+}
+
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Создать заказ</h1>
+    <div class="form-group">
+        <label for="UserId">ID Пользователя</label>
+        <select id="UserId" name="NewOrder.UserId" class="form-control" required>
+            @if (Model.Users != null && Model.Users.Any())
+            {
+                foreach (var user in Model.Users)
+                {
+                    <option value="@user.UserId">@user.UserLogin</option>
+                }
+            }
+            else
+            {
+                <option disabled>Пользователи не найдены</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="DateOrder">Дата заказа</label>
+        <input type="date" id="DateOrder" name="NewOrder.DateOrder" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="TimeOrder">Время заказа</label>
+        <input type="time" id="TimeOrder" name="NewOrder.TimeOrder" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Создать</button>
+    <a asp-page="/Orders/Orders" style="display:inline;" class="action-btn delete-btn">Отмена</a>
+</form>

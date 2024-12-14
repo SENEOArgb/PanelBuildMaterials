@@ -1,0 +1,19 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Services.CreateServiceModel
+@{
+    ViewData["Title"] = "Добавить услугу";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Добавить услугу</h1>
+    <div class="form-group">
+        <label>Наименование услуги</label>
+        <input asp-for="Service.NameService" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Стоимость</label>
+        <input asp-for="Service.PriceService" type="number" class="form-control"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/Services/Services" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>

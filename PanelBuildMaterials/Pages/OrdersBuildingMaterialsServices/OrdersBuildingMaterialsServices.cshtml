@@ -1,0 +1,56 @@
+﻿@page "{id:int}"
+@model PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices.OrdersBuildingMaterialsServicesModel
+@{
+    ViewData["Title"] = "Детали заказа";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Детали заказа №@Model.Order.OrderId</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID записи</th>
+                <th>Материал</th>
+                <th>Услуга</th>
+                <th>Количество</th>
+                <th>Цена</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.BuildingMaterialsServicesOrders)
+            {
+                <tr>
+                    <td>@item.BuildingMaterialServiceOrderId</td>
+                    <!-- Отображение материала -->
+                    <td>
+                        @(item.BuildingMaterial != null ? item.BuildingMaterial.NameBuildingMaterial : "Материал не найден")
+                    </td>
+
+                    <td>
+                        @(item.Service != null ? item.Service.NameService : "Услуга не найдена")
+                    </td>
+
+                    <td>@item.CountBuildingMaterial</td>
+                    <td>@item.OrderPrice</td>
+                    <td>
+                        <a asp-page="/OrdersBuildingMaterialsServices/EditMaterialsServices" asp-route-id="@item.BuildingMaterialServiceOrderId" class="action-link">Изменить</a>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@item.BuildingMaterialServiceOrderId" style="display:inline;">
+                            <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить эту ?');">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Отображение общей стоимости заказа -->
+    <h3>Общая стоимость заказа: @Model.TotalOrderPrice</h3>
+
+    <div class="add-btn-container">
+        <a href="/OrdersBuildingMaterialsServices/CreateMaterialsServices/@Model.Order.OrderId" class="add-btn">Добавить запись</a>
+    </div>
+
+    <a asp-page="/Orders/Orders" class="go-btn">Назад к заказам</a>
+
+</div>

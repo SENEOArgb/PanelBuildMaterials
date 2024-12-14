@@ -1,0 +1,45 @@
+﻿@page "{id:int}"
+@model PanelBuildMaterials.Pages.Orders.EditOrderModel
+@{
+    ViewData["Title"] = "Изменить заказ";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Изменить заказ №@Model.Order.OrderId</h1>
+    @if (Model.Order != null)
+    {
+        <input type="hidden" name="OrderId" value="@Model.Order.OrderId" />
+        <div class="form-group">
+            <label for="UserId">ID Пользователя</label>
+            <select id="UserId" name="UserId" class="form-control" required>
+                @if (Model.Users != null && Model.Users.Any())
+                {
+                    @foreach (var user in Model.Users)
+                    {
+                        <option value="@user.UserId" selected="@(user.UserId == Model.Order.UserId ? "selected" : null)">
+                            @user.UserLogin
+                        </option>
+                    }
+                }
+                else
+                {
+                    <option disabled>Пользователи не найдены</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="DateOrder">Дата заказа</label>
+            <input type="date" id="DateOrder" name="DateOrder" value="@Model.Order.DateOrder.ToString("yyyy-MM-dd")" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="TimeOrder">Время заказа</label>
+            <input type="time" id="TimeOrder" name="TimeOrder" value="@(Model.Order.TimeOrder.HasValue ? Model.Order.TimeOrder.Value.ToString(@"hh\:mm") : string.Empty)" class="form-control" />
+        </div>
+    }
+    else
+    {
+        <p class="text-danger">Ошибка: данные заказа не загружены.</p>
+    }
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/Orders/Orders" style="display:inline;" class="action-btn delete-btn">Отмена</a>
+</form>

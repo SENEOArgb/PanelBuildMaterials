@@ -1,0 +1,85 @@
+﻿@page "{orderId:int}"
+@model PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices.CreateMaterialsServicesModel
+@{
+    ViewData["Title"] = "Добавить запись в заказ ";
+}
+<div class="manip-page">
+    <h1 class="text-center">Добавить запись в заказ №@Model.OrderId</h1>
+
+    <form class="form-manip" method="post">
+        <input type="hidden" name="orderId" value="@Model.OrderId" />
+
+        <div class="form-group">
+            <label for="BuildingMaterialId">Материал:</label>
+            <select id="BuildingMaterialId" asp-for="BuildingMaterialsServices.BuildingMaterialId" asp-items="Model.Materials" class="form-control">
+                <option value="">Не выбран</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="ServiceId">Услуга:</label>
+            <select id="ServiceId" asp-for="BuildingMaterialsServices.ServiceId" asp-items="Model.Services" class="form-control">
+                <option value="">Не выбран</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="CountBuildingMaterial">Количество:</label>
+            <input type="number" id="CountBuildingMaterial" asp-for="BuildingMaterialsServices.CountBuildingMaterial" class="form-control" min="1" />
+        </div>
+
+        <div class="form-group">
+            <label for="OrderPrice">Цена заказа:</label>
+            <input type="number" id="OrderPrice" asp-for="BuildingMaterialsServices.OrderPrice" class="form-control" readonly value="@Model.BuildingMaterialsServices.OrderPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)" />
+        </div>
+
+        <button type="button" id="calculatePriceButton" class="btn btn-secondary">Рассчитать стоимость</button>
+        <button type="submit" class="btn btn-primary">Добавить</button>
+        <a asp-page="/OrdersBuildingMaterialsServices/OrdersBuildingMaterialsServices" asp-route-id="@Model.OrderId" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelector('#calculatePriceButton').addEventListener('click', function () {
+            var materialId = document.querySelector('#BuildingMaterialId').value;
+            var serviceId = document.querySelector('#ServiceId').value;
+            var count = document.querySelector('#CountBuildingMaterial').value;
+
+            // Логируем, чтобы проверить передаваемые данные
+            console.log("Material ID:", materialId);
+            console.log("Service ID:", serviceId);
+            console.log("Count:", count);
+
+            if ((!materialId && !serviceId) || (materialId && count <= 0)) {
+                alert('Пожалуйста, выберите хотя бы материал или услугу и укажите количество для материала.');
+                return;
+            }
+
+            var queryParams = new URLSearchParams();
+
+            if (materialId) {
+                queryParams.append("materialId", materialId);
+                queryParams.append("count", parseInt(count) || 0);
+            }
+
+            if (serviceId) {
+                queryParams.append("serviceId", serviceId);
+            }
+
+            fetch(`/api/CalculatePrice/CalculatePrice?${queryParams.toString()}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.orderPrice !== undefined) {
+                        document.querySelector('#OrderPrice').value = data.orderPrice.toFixed(2);
+                    } else {
+                        document.querySelector('#OrderPrice').value = "0";
+                    }
+                })
+                .catch(error => {
+                    console.error("Ошибка при вычислении стоимости", error);
+                    document.querySelector('#OrderPrice').value = "0";
+                });
+        });
+    </script>
+}

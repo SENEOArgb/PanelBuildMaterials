@@ -1,0 +1,24 @@
+﻿@page
+@model PanelBuildMaterials.Pages.WarehousesBuildingMaterials.CreateWarehousesBuildingMaterialsModel
+@{
+    ViewData["Title"] = "Добавить материал";
+}
+
+<form class="form-manip" method="post">
+    <h1 class="text-center">Добавить материал на склад @Model.Warehouse.WarehouseName</h1>
+    <div class="form-group">
+        <label for="BuildingMaterialId">Выберите материал</label>
+        <select id="BuildingMaterialId" name="BuildingMaterialId" class="form-control" required>
+            @foreach (var material in Model.AllMaterials)
+            {
+                <option value="@material.BuildingMaterialId">@material.NameBuildingMaterial</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="AmountBuildingMaterial">Количество</label>
+        <input type="number" id="AmountBuildingMaterial" name="AmountBuildingMaterial" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+    <a asp-page="/WarehousesBuildingMaterials/WarehousesBuildingMaterials" asp-route-id="@Model.WarehouseId" style="display:inline;" class="action-btn delete-btn">Отменить</a>
+</form>

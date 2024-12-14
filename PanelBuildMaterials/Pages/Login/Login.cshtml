@@ -1,0 +1,20 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Login.LoginModel
+@{
+    ViewData["Title"] = "Авторизация";
+}
+
+<div class="login-page">
+    <h1 class="text-center">Авторизация</h1>
+    <form method="post" class="auth-form">
+        <div class="form-group">
+            <label for="UserLogin">Логин</label>
+            <input type="text" id="UserLogin" name="UserLogin" class="form-control input-small" required />
+        </div>
+        <div class="form-group">
+            <label for="UserPassword">Пароль</label>
+            <input type="password" id="UserPassword" name="UserPassword" class="form-control input-small" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+    </form>
+</div>

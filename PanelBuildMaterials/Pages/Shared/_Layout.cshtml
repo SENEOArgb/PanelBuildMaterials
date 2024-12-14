@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - MyApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Layout.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" />
+        </div>
+        @if (ViewData["HideMenu"] == null || !(bool)ViewData["HideMenu"])
+        {
+            <nav>
+                <ul>
+                    <li><a asp-page="/BuildingMaterials/BuildingMaterials">Стройматериалы</a></li>
+                    <li><a asp-page="/Categories/Categories">Категории</a></li>
+                    <li><a asp-page="/Services/Services">Услуги</a></li>
+                    <li><a asp-page="/Warehouses/Warehouses">Склады</a></li>
+                    @if (UserService.HasAccess("Полные"))
+                    {
+                        <li><a asp-page="/Users/Users">Пользователи</a></li>
+                        <li><a asp-page="/Logs/Logs">Логи</a></li>
+                    }
+                    <li><a asp-page="/Orders/Orders">Заказы</a></li>
+                </ul>
+            </nav>
+        }
+        <div class="user-section">
+            @if (UserService.UserId != null)
+            {
+                <div class="user-menu">
+                    <img src="/images/user-icon.jpg" alt="User" class="icon-img" />
+                    <span id="user-login" class="user-login">@UserService.UserLogin</span>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a href="javascript:void(0);" id="logout-button">Выйти</a></li>
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div class="user-menu">
+                    <img src="/images/user-icon.jpg" alt="User" class="icon-img" />
+                    <a asp-page="/Login/Login" class="user-login">Войти</a>
+                </div>
+            }
+        </div>
+    </header>
+        <main>
+            @RenderBody()
+        </main>
+        <footer>
+            <p>&copy; 2024 - PanelBuildingMaterialsApp</p>
+        </footer>
+
+        @RenderSection("Scripts", required: false)
+    </body>
+    </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const userLogin = document.getElementById("user-login");
+        const dropdownMenu = document.getElementById("dropdown-menu");
+
+        if (userLogin && dropdownMenu) {
+            // Открытие/закрытие меню при клике на имя пользователя
+            userLogin.addEventListener("click", function (e) {
+                e.stopPropagation(); // Предотвращаем закрытие меню при клике внутри
+                dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+            });
+
+            // Закрытие меню при клике вне области
+            document.addEventListener("click", function () {
+                dropdownMenu.style.display = "none";
+            });
+
+            // Обработчик для кнопки "Выйти"
+            const logoutButton = document.getElementById("logout-button");
+            if (logoutButton) {
+                logoutButton.addEventListener("click", function (e) {
+                    e.preventDefault(); // Предотвращаем стандартное поведение ссылки
+                    // Очистить сессию
+                    sessionStorage.clear(); // Очищаем sessionStorage
+                    localStorage.clear(); // Очищаем localStorage
+                    // Перенаправить на страницу авторизации
+                    window.location.href = '/Login/Login'; // Перенаправление на страницу авторизации
+                });
+            }
+        }
+    });
+</script>

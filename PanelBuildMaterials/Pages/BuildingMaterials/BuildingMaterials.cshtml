@@ -1,0 +1,79 @@
+﻿@page
+@model PanelBuildMaterials.Pages.BuildingMaterials.BuildingMaterialsModel
+@{
+    ViewData["Title"] = "Строиматериалы";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Строиматериалы</h1>
+
+    <!-- Форма поиска -->
+    <div class="search-container">
+        <form method="get" class="search-form">
+            <input type="text" name="SearchQuery" placeholder="Поиск по категории" value="@Model.SearchQuery" class="search-input" />
+            <button type="submit" class="search-btn primary-btn">Найти</button>
+            <a href="/BuildingMaterials/BuildingMaterials" class="search-btn secondary-btn">Сброс</a>
+        </form>
+    </div>
+
+    <!-- Таблица материалов -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование</th>
+                <th>Категория</th>
+                <th>Розничная цена</th>
+                <th>Оптовая цена</th>
+                @if (UserService.HasAccess("Полные"))
+                {
+                    <th>Действия</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var material in Model.BuildingMaterials)
+            {
+                <tr>
+                    <td>@material.BuildingMaterialId</td>
+                    <td>@material.NameBuildingMaterial</td>
+                    <td>@material.Category.NameCategory</td>
+                    <td>@material.RetailPrice</td>
+                    <td>@material.WholesalePrice</td>
+                    <td>
+                        @if (UserService.HasAccess("Полные"))
+                        {
+                            <a asp-page="/BuildingMaterials/EditBuildingMaterial" asp-route-id="@material.BuildingMaterialId" class="action-link">Редактировать</a>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@material.BuildingMaterialId" style="display:inline;">
+                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить этот материал?');">Удалить</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+            @if (!Model.BuildingMaterials.Any())
+            {
+                <tr>
+                    <td colspan="4" class="text-center">Нет доступных материалов</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Кнопка добавления -->
+    @if (UserService.HasAccess("Полные"))
+    {
+        <div class="add-btn-container">
+            <a asp-page="/BuildingMaterials/CreateBuildingMaterial" class="add-btn">Добавить материал</a>
+        </div>
+    }
+
+    <!-- Пагинация -->
+    <div class="pagination-container">
+        <a asp-page="/BuildingMaterials/BuildingMaterials" asp-route-CurrentPage="@(Model.CurrentPage - 1)" asp-route-SearchQuery="@Model.SearchQuery"
+           class="pagination-btn" disabled="@(Model.CurrentPage == 1)">Назад</a>
+        <span class="pagination-info">Страница @Model.CurrentPage из @Model.TotalPages</span>
+        <a asp-page="/BuildingMaterials/BuildingMaterials" asp-route-CurrentPage="@(Model.CurrentPage + 1)" asp-route-SearchQuery="@Model.SearchQuery"
+           class="pagination-btn" disabled="@(Model.CurrentPage == Model.TotalPages)">Вперед</a>
+    </div>
+</div>
