@@ -1,3 +1,4 @@
+using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,15 +12,21 @@ namespace PanelBuildMaterials.Pages.Orders
     {
         private readonly PanelDbContext _context;
         private readonly LoggingService _loggingService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public EditOrderModel(PanelDbContext context, LoggingService loggingService)
+        public EditOrderModel(PanelDbContext context, LoggingService loggingService, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _loggingService = loggingService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         [BindProperty]
         public Order Order { get; set; }
+
+        private int? CurrentUserId => _httpContextAccessor.HttpContext?.Session.GetInt32("UserId");
+
+        private string? CurrentUserLogin => _httpContextAccessor.HttpContext?.Session.GetString("UserLogin");
 
         public IList<User> Users { get; set; }
 
@@ -52,6 +59,14 @@ namespace PanelBuildMaterials.Pages.Orders
                 return RedirectToPage("/Orders/Orders");
             }
 
+            if (Order.DateOrder < DateOnly.FromDateTime(DateTime.Today))
+            {
+                ModelState.AddModelError("NewOrder.DateOrder", "ƒата заказа не может быть меньше текущей.");
+                await LoadUsersAsync();
+                return Page();
+            }
+
+
             try
             {
                 // ќбновление свойств заказа
@@ -81,7 +96,7 @@ namespace PanelBuildMaterials.Pages.Orders
         {
             try
             {
-                Users = await _context.Users.ToListAsync();
+                Users = await _context.Users.Where(u => u.UserId == CurrentUserId).ToListAsync();
                 if (Users == null || !Users.Any())
                 {
                     await _loggingService.LogAsync("—писок пользователей пуст или не загружен.");

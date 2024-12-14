@@ -14,11 +14,13 @@ namespace PanelBuildMaterials.Pages.Orders
     {
         private readonly PanelDbContext _context;
         private readonly LoggingService _loggingService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public OrdersModel(PanelDbContext context, LoggingService loggingService)
+        public OrdersModel(PanelDbContext context, LoggingService loggingService, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _loggingService = loggingService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public IList<Order> Orders { get; set; } = new List<Order>();
@@ -27,6 +29,10 @@ namespace PanelBuildMaterials.Pages.Orders
         // Пагинация
         [BindProperty(SupportsGet = true)]
         public int CurrentPage { get; set; } = 1;
+
+        private int? CurrentUserId => _httpContextAccessor.HttpContext?.Session.GetInt32("UserId");
+
+        private string? CurrentUserLogin => _httpContextAccessor.HttpContext?.Session.GetString("UserLogin");
 
         public int TotalPages { get; set; }
 
@@ -40,6 +46,7 @@ namespace PanelBuildMaterials.Pages.Orders
             Orders = await _context.Orders
                 .Include(o => o.User)
                 .OrderBy(o => o.OrderId)
+                //.Where(o => o.UserId == CurrentUserId)// отображение только заказов вошедших пользователей
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();

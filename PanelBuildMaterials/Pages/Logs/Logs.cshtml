@@ -1,0 +1,44 @@
+﻿@page
+@model PanelBuildMaterials.Pages.Logs.LogsModel
+@{
+    ViewData["Title"] = "Логи действий пользователей";
+}
+
+<div class="all-page">
+    <h1 class="text-center">Логи</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Пользователь</th>
+                <th>Дата и время</th>
+                <th>Описание</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var log in Model.Logs)
+            {
+                <tr>
+                    <td>@log.LogId</td>
+                    <td>@log.User.UserLogin</td>
+                    <td>@log.DateTimeLog.ToString("dd.MM.yyyy HH:mm:ss")</td>
+                    <td>@log.LogDescription</td>
+                    <td>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@log.LogId" style="display:inline;" onsubmit="return confirmDelete();">
+                            <button type="submit" class="action-btn delete-btn">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmDelete() {
+            return confirm('Вы уверены, что хотите удалить этот лог? Это действие нельзя отменить.');
+        }
+    </script>
+}

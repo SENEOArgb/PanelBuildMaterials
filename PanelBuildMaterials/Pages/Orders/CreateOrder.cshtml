@@ -9,23 +9,23 @@
     <h1 class="text-center">Создать заказ</h1>
     <div class="form-group">
         <label for="UserId">ID Пользователя</label>
-        <select id="UserId" name="NewOrder.UserId" class="form-control" required>
+        <select id="UserId" name="NewOrder.UserId" class="form-control" readonly required>
             @if (Model.Users != null && Model.Users.Any())
             {
-                foreach (var user in Model.Users)
-                {
-                    <option value="@user.UserId">@user.UserLogin</option>
-                }
+                var currentUser = Model.Users.First();
+                <option value="@currentUser.UserId" selected>@currentUser.UserLogin</option>
             }
             else
             {
-                <option disabled>Пользователи не найдены</option>
+                <option disabled>Пользователь не найден</option>
             }
         </select>
     </div>
     <div class="form-group">
         <label for="DateOrder">Дата заказа</label>
-        <input type="date" id="DateOrder" name="NewOrder.DateOrder" class="form-control" required />
+        <input type="date" id="DateOrder" name="NewOrder.DateOrder"
+               class="form-control" required
+               min="@DateTime.Now.ToString("yyyy-MM-dd")" />
     </div>
     <div class="form-group">
         <label for="TimeOrder">Время заказа</label>

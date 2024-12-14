@@ -11,17 +11,23 @@ namespace PanelBuildMaterials.Pages.Orders
     {
         private readonly PanelDbContext _context;
         private readonly LoggingService _loggingService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CreateOrderModel(PanelDbContext context, LoggingService loggingService)
+        public CreateOrderModel(PanelDbContext context, LoggingService loggingService, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _loggingService = loggingService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         [BindProperty]
         public Order NewOrder { get; set; } = new Order();
 
         public IList<User> Users { get; set; } = new List<User>();
+
+        private int? CurrentUserId => _httpContextAccessor.HttpContext?.Session.GetInt32("UserId");
+
+        private string? CurrentUserLogin => _httpContextAccessor.HttpContext?.Session.GetString("UserLogin");
 
         public async Task OnGetAsync()
         {
@@ -39,6 +45,8 @@ namespace PanelBuildMaterials.Pages.Orders
                 return Page();
             }
 
+
+
             // Проверяем обязательные поля
             if (NewOrder.UserId == 0 || NewOrder.DateOrder == default)
             {
@@ -47,6 +55,14 @@ namespace PanelBuildMaterials.Pages.Orders
                 await LoadUsersAsync();
                 return Page();
             }
+
+            if (NewOrder.DateOrder < DateOnly.FromDateTime(DateTime.Today))
+            {
+                ModelState.AddModelError("NewOrder.DateOrder", "Дата заказа не может быть меньше текущей.");
+                await LoadUsersAsync();
+                return Page();
+            }
+
 
             try
             {
@@ -80,22 +96,24 @@ namespace PanelBuildMaterials.Pages.Orders
         {
             try
             {
-                Users = await _context.Users.ToListAsync();
+                if (CurrentUserId != null)
+                {
+                    // Загружаем только текущего пользователя
+                    Users = await _context.Users
+                        .Where(u => u.UserId == CurrentUserId)
+                        .ToListAsync();
+                }
 
                 if (Users == null || !Users.Any())
                 {
-                    Console.WriteLine("Список пользователей пуст.");
-                    await _loggingService.LogAsync("Список пользователей пуст или не загружен.");
-                }
-                else
-                {
-                    Console.WriteLine($"Загружено пользователей: {Users.Count}");
+                    Console.WriteLine("Текущий пользователь не найден.");
+                    await _loggingService.LogAsync("Ошибка: текущий пользователь не найден.");
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка загрузки пользователей: {ex.Message}");
-                await _loggingService.LogAsync($"Ошибка загрузки списка пользователей: {ex.Message}");
+                Console.WriteLine($"Ошибка загрузки пользователя: {ex.Message}");
+                await _loggingService.LogAsync($"Ошибка загрузки пользователя: {ex.Message}");
             }
         }
     }

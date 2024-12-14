@@ -46,10 +46,10 @@ namespace PanelBuildMaterials.Pages.Users
             userToUpdate.UserLaws = User.UserLaws;
 
             // Если пароль введен, то хешируем его
-            if (!string.IsNullOrEmpty(Request.Form["UserPassword"]))
+            /*if (!string.IsNullOrEmpty(Request.Form["UserPassword"]))
             {
                 userToUpdate.UserPasswordHash = BCrypt.Net.BCrypt.HashPassword(Request.Form["UserPassword"]);
-            }
+            }*/
 
             try
             {
