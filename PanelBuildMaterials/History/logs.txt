@@ -1028,3 +1028,8 @@
 [12.12.2024 14:09:16] UserLogin: kassir, Description: Деталь добавлена в контекст.
 [12.12.2024 14:09:16] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
 [12.12.2024 14:09:16] UserLogin: kassir, Description: Запись успешно добавлена.
+[15.12.2024 14:05:00] UserLogin: admin, Description: Удалена услуга: ID=8, Наименование: Не выбрана, Стоимость: 0,00
+[15.12.2024 15:09:19] UserLogin: kassir, Description: Попытка добавить запись для заказа с ID: 1
+[15.12.2024 15:09:20] UserLogin: kassir, Description: Деталь добавлена в контекст.
+[15.12.2024 15:09:20] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
+[15.12.2024 15:09:20] UserLogin: kassir, Description: Запись успешно добавлена.

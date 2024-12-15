@@ -1,3 +1,4 @@
+using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -19,9 +20,25 @@ namespace PanelBuildMaterials.Pages.Services
 
         public IList<Service> Services { get; set; } = new List<Service>();
 
-        public async Task OnGetAsync()
+
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
+
+        private const int PageSize = 6; // Количество записей на странице
+
+        public async Task OnGetAsync(int currentPage = 1)
         {
-            Services = await _context.Services.ToListAsync();
+            CurrentPage = currentPage;
+
+            // Общее количество записей
+            var totalRecords = await _context.Services.CountAsync();
+            TotalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
+
+            // Пагинация
+            Services = await _context.Services
+                .Skip((CurrentPage - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
         }
 
         public async Task<IActionResult> OnPostDeleteAsync(int id)
@@ -39,7 +56,7 @@ namespace PanelBuildMaterials.Pages.Services
             // Логгирование удаления
             await _loggingService.LogAsync($"Удалена услуга: ID={service.ServiceId}, Наименование: {service.NameService}, Стоимость: {service.PriceService}");
 
-            return RedirectToPage();
+            return RedirectToPage(new { currentPage = CurrentPage});
         }
     }
 }

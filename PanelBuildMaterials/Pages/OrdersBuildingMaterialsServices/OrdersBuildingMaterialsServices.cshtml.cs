@@ -24,6 +24,14 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
         public decimal TotalOrderPrice { get; set; }
         public IList<BuildingMaterialsServicesOrder> BuildingMaterialsServicesOrders { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public int CurrentPage { get; set; } = 1;
+
+        public int TotalPages { get; set; }
+
+        private const int PageSize = 5;
+
+
         // ѕолучение данных о заказе и запис€х материалов/услуг
         public async Task OnGetAsync(int id)
         {
@@ -38,11 +46,19 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                 return;  // ƒобавлено: ¬ыход, если заказ не найден
             }
 
+            var totalRecords = await _context.BuildingMaterialsServicesOrders
+                .Where(d => d.OrderId == id)
+                .CountAsync();
+
+            TotalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
+
             // «агрузка материалов и услуг дл€ выбранного заказа
             BuildingMaterialsServicesOrders = await _context.BuildingMaterialsServicesOrders
                 .Include(d => d.BuildingMaterial)  // ”бедитесь, что данные о материале загружены
                 .Include(d => d.Service)           // ”бедитесь, что данные об услуге загружены
                 .Where(d => d.OrderId == id)
+                .Skip((CurrentPage - 1) * PageSize)
+                .Take(PageSize)
                 .ToListAsync();
 
             // –асчет общей стоимости заказа

@@ -18,10 +18,24 @@ namespace PanelBuildMaterials.Pages.Users
         }
 
         public IList<User> Users { get; set; } = new List<User>();
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
 
-        public async Task OnGetAsync()
+        private const int PageSize = 6; // Количество записей на странице
+
+        public async Task OnGetAsync(int currentPage = 1)
         {
-            Users = await _context.Users.ToListAsync();
+            CurrentPage = currentPage;
+
+            // Общее количество записей
+            var totalRecords = await _context.Users.CountAsync();
+            TotalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
+
+            // Пагинация
+            Users = await _context.Users
+                .Skip((CurrentPage - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
         }
 
         // Метод для удаления пользователя
@@ -42,7 +56,7 @@ namespace PanelBuildMaterials.Pages.Users
 
                 // Логгирование удаления
                 await _loggingService.LogAsync($"Удален пользователь ID={id}, Логин={userToDelete.UserLogin}");
-                return RedirectToPage("/Users/Users");
+                return RedirectToPage(new { currentPage = CurrentPage });
             }
             catch (Exception ex)
             {

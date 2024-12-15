@@ -10,11 +10,15 @@
         <input type="hidden" asp-for="BuildingMaterialsServices.OrderId" />
         <div class="form-group">
             <label>Материал:</label>
-            <select asp-for="BuildingMaterialsServices.BuildingMaterialId" asp-items="Model.Materials" class="form-control"></select>
+            <select asp-for="BuildingMaterialsServices.BuildingMaterialId" asp-items="Model.Materials" class="form-control">
+                <option value="">Не выбран</option>
+            </select>
         </div>
         <div class="form-group">
             <label>Услуга:</label>
-            <select asp-for="BuildingMaterialsServices.ServiceId" asp-items="Model.Services" class="form-control"></select>
+            <select asp-for="BuildingMaterialsServices.ServiceId" asp-items="Model.Services" class="form-control">
+                <option value="">Не выбран</option>
+            </select>
         </div>
         <div class="form-group">
             <label>Количество материалов:</label>
