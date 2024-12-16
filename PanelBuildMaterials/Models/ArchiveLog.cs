@@ -9,6 +9,6 @@ namespace PanelBuildMaterials.Models
         public int UserId { get; set; }
         public DateTime DateTimeLog { get; set; }
         public string? LogDescription { get; set; }
-        public string? UserLogin { get; set; } // Сохраняем имя пользователя
+        public string? UserLogin { get; set; }
     }
 }

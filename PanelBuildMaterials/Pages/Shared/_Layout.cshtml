@@ -70,27 +70,25 @@
         const dropdownMenu = document.getElementById("dropdown-menu");
 
         if (userLogin && dropdownMenu) {
-            // Открытие/закрытие меню при клике на имя пользователя
+            //открытие/закрытие меню при клике на логин пользователя
             userLogin.addEventListener("click", function (e) {
-                e.stopPropagation(); // Предотвращаем закрытие меню при клике внутри
+                e.stopPropagation();
                 dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
             });
 
-            // Закрытие меню при клике вне области
+            //закрытие меню при клике вне области меню
             document.addEventListener("click", function () {
                 dropdownMenu.style.display = "none";
             });
 
-            // Обработчик для кнопки "Выйти"
+            //кнопка выйти при нажатии на логин пользователя(ее обработка)
             const logoutButton = document.getElementById("logout-button");
             if (logoutButton) {
                 logoutButton.addEventListener("click", function (e) {
-                    e.preventDefault(); // Предотвращаем стандартное поведение ссылки
-                    // Очистить сессию
-                    sessionStorage.clear(); // Очищаем sessionStorage
-                    localStorage.clear(); // Очищаем localStorage
-                    // Перенаправить на страницу авторизации
-                    window.location.href = '/Login/Login'; // Перенаправление на страницу авторизации
+                    e.preventDefault(); //отклонение поведения как ссылки(эффекты и т.п.)
+                    sessionStorage.clear();
+                    localStorage.clear();
+                    window.location.href = '/Login/Login';
                 });
             }
         }

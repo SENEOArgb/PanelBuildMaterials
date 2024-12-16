@@ -36,8 +36,11 @@ namespace PanelBuildMaterials.Pages.Orders
 
         public async Task<IActionResult> OnPostAsync()
         {
-            Console.WriteLine("Ќачало обработки OnPostAsync");
+            Console.WriteLine("—оздание нового заказа началось.");
 
+
+            //P.S.: ModelState это соответствие введенных данных с моделью данных, дл€ которой они ввод€тс€.
+            //ƒанна€ проерка присутствует во многих файлах логики этого проекта.
             if (!ModelState.IsValid)
             {
                 Console.WriteLine("ModelState недействителен.");
@@ -45,9 +48,7 @@ namespace PanelBuildMaterials.Pages.Orders
                 return Page();
             }
 
-
-
-            // ѕровер€ем об€зательные пол€
+            //проверка полей даты и пользовател€
             if (NewOrder.UserId == 0 || NewOrder.DateOrder == default)
             {
                 Console.WriteLine("Ќе заполнены об€зательные пол€.");
@@ -66,12 +67,12 @@ namespace PanelBuildMaterials.Pages.Orders
 
             try
             {
-                // —оздание и сохранение заказа
+                //создание записи заказа
                 var order = new Order
                 {
                     UserId = NewOrder.UserId,
                     DateOrder = NewOrder.DateOrder,
-                    TimeOrder = NewOrder.TimeOrder ?? new TimeOnly(0, 0) // ƒефолтное значение
+                    TimeOrder = NewOrder.TimeOrder ?? new TimeOnly(0, 0)
                 };
 
                 _context.Orders.Add(order);
@@ -98,7 +99,8 @@ namespace PanelBuildMaterials.Pages.Orders
             {
                 if (CurrentUserId != null)
                 {
-                    // «агружаем только текущего пользовател€
+                    //загрузка авторизованного пользовател€
+                    //P.S.: „тобы пользователь мог создавать заказы только от себ€.
                     Users = await _context.Users
                         .Where(u => u.UserId == CurrentUserId)
                         .ToListAsync();

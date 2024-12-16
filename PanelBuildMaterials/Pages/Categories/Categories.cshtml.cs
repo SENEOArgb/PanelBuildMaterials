@@ -24,7 +24,7 @@ namespace PanelBuildMaterials.Pages.Categories
 
         public int TotalPages { get; set; }
 
-        private const int PageSize = 6; // Количество записей на странице
+        private const int PageSize = 6; //кол-во записей в таблице на страние
 
         public async Task OnGetAsync()
         {
@@ -38,6 +38,7 @@ namespace PanelBuildMaterials.Pages.Categories
                 .ToListAsync();
         }
 
+        //удаление категории
         public async Task<IActionResult> OnPostDeleteAsync(int id)
         {
             var category = await _context.Categories.FindAsync(id);
@@ -50,7 +51,6 @@ namespace PanelBuildMaterials.Pages.Categories
             _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
 
-            // Логгируем удаление
             await _loggingService.LogAsync($"Удалена категория ID={id}, имя: {category.NameCategory}");
 
             return RedirectToPage(new {CurrentPage});

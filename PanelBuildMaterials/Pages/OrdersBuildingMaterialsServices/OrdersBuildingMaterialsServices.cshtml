@@ -25,7 +25,6 @@
             {
                 <tr>
                     <td>@item.BuildingMaterialServiceOrderId</td>
-                    <!-- Отображение материала -->
                     <td>
                         @(item.BuildingMaterial != null ? item.BuildingMaterial.NameBuildingMaterial : "Материал не найден")
                     </td>
@@ -41,7 +40,7 @@
                         <td>
                             <a asp-page="/OrdersBuildingMaterialsServices/EditMaterialsServices" asp-route-id="@item.BuildingMaterialServiceOrderId" class="action-link">Изменить</a>
                             <form method="post" asp-page-handler="Delete" asp-route-id="@item.BuildingMaterialServiceOrderId" style="display:inline;">
-                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить эту ?');">Удалить</button>
+                                <button type="submit" class="action-btn delete-btn" onclick="return confirm('Удалить данное содержимое заказа?');">Удалить</button>
                             </form>
                         </td>
                     }
@@ -50,7 +49,6 @@
         </tbody>
     </table>
 
-    <!-- Отображение общей стоимости заказа -->
     <h3>Общая стоимость заказа: @Model.TotalOrderPrice</h3>
 
     <div class="pagination-container">

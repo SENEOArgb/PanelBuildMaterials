@@ -31,10 +31,11 @@ namespace PanelBuildMaterials.Pages.Services
                 return Page();
             }
 
+            //создание и сохранение категории в БД
             _context.Services.Add(Service);
             await _context.SaveChangesAsync();
 
-            // Логгирование создания
+            //лог создания категории
             await _loggingService.LogAsync($"Добавлена новая услуга: ID={Service.ServiceId}, Наименование: {Service.NameService}, Стоимость: {Service.PriceService}");
 
             return RedirectToPage("/Services/Services");

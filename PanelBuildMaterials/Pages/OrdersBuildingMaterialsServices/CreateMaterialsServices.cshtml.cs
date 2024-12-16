@@ -58,6 +58,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                 return Page();
             }
 
+            //создание нового содержимого по заказу(выбор необходимого заказа)
             var order = await _context.Orders
                 .Include(o => o.BuildingMaterialsServicesOrders)
                 .FirstOrDefaultAsync(o => o.OrderId == OrderId);
@@ -69,6 +70,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                 return Page();
             }
 
+            //если поля ввода пустые
             if (BuildingMaterialsServices.BuildingMaterialId == null && BuildingMaterialsServices.ServiceId == null)
             {
                 AddErrorAndLog("Необходимо выбрать хотя бы материал или услугу.");
@@ -76,7 +78,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                 return Page();
             }
 
-            // Если выбран материал
+            //если в поле выбора есть материал
             if (BuildingMaterialsServices.BuildingMaterialId != null)
             {
                 if (BuildingMaterialsServices.CountBuildingMaterial <= 0)
@@ -86,14 +88,14 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                     return Page();
                 }
 
-                // Если выбран только материал, проверяем склад
+                //рассчет стоимости
                 BuildingMaterialsServices.OrderPrice = await _orderService.CalculateOrderPriceAsync(BuildingMaterialsServices);
             }
 
-            // Если выбрана услуга
+            //если в поле выбора есть услуга
             if (BuildingMaterialsServices.ServiceId != null)
             {
-                // Если выбрана только услуга, рассчитываем цену только по услуге
+                //рассчет стоимости только для услуги
                 BuildingMaterialsServices.OrderPrice = await _orderService.CalculateServicePriceAsync(BuildingMaterialsServices);
             }
 

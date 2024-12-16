@@ -31,11 +31,8 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
 
         private const int PageSize = 5;
 
-
-        // ѕолучение данных о заказе и запис€х материалов/услуг
         public async Task OnGetAsync(int id)
         {
-            // «агрузка данных о заказе
             Order = await _context.Orders
                 .Include(o => o.User)
                 .FirstOrDefaultAsync(o => o.OrderId == id);
@@ -43,7 +40,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
             if (Order == null)
             {
                 NotFound();
-                return;  // ƒобавлено: ¬ыход, если заказ не найден
+                return;
             }
 
             var totalRecords = await _context.BuildingMaterialsServicesOrders
@@ -52,20 +49,20 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
 
             TotalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
 
-            // «агрузка материалов и услуг дл€ выбранного заказа
+            //загрузка материалов и услуг дл€ отображени€ записей содержимого заказа
             BuildingMaterialsServicesOrders = await _context.BuildingMaterialsServicesOrders
-                .Include(d => d.BuildingMaterial)  // ”бедитесь, что данные о материале загружены
-                .Include(d => d.Service)           // ”бедитесь, что данные об услуге загружены
+                .Include(d => d.BuildingMaterial)
+                .Include(d => d.Service)
                 .Where(d => d.OrderId == id)
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();
 
-            // –асчет общей стоимости заказа
+            //расчет общей стоимости заказа
             TotalOrderPrice = await _orderService.CalculateOrderPriceByOrderId(id);
         }
 
-        // ”даление записи из заказа и логгирование этого событи€
+        //удаление записи содержимого заказа с логом
         public async Task<IActionResult> OnPostDeleteAsync(int id)
         {
             var record = await _context.BuildingMaterialsServicesOrders
@@ -76,7 +73,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                 return NotFound();
             }
 
-            // ѕровер€ем, св€зан ли материал со складом
+            //проверка, есть ли материал на складе
             if (record.BuildingMaterialId.HasValue)
             {
                 var warehouseMaterial = await _context.BuildingMaterialsWarehouses
@@ -84,17 +81,17 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
 
                 if (warehouseMaterial != null)
                 {
-                    // ¬озвращаем количество на склад
+                    //возврат кол-ва материала на склад при удалении
                     warehouseMaterial.AmountBuildingMaterial += record.CountBuildingMaterial ?? 0;
                     _context.Attach(warehouseMaterial).State = EntityState.Modified;
                 }
             }
 
-            // ”дал€ем запись из заказа
+            //удаление и сохранение изменений в Ѕƒ
             _context.BuildingMaterialsServicesOrders.Remove(record);
             await _context.SaveChangesAsync();
 
-            // Ћогируем операцию
+            //лог удалени€
             await _loggingService.LogAsync($"”далена запись ID: {id} из заказа ID: {record.OrderId}.  оличество возвращено на склад.");
 
             return RedirectToPage(new { id = record.OrderId });

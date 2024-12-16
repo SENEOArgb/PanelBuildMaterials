@@ -17,7 +17,7 @@ public partial class User
 
     public virtual ICollection<Log> Logs { get; set; } = new List<Log>();
 
-    [Required(ErrorMessage = "Пароль обязателен")]
+    [Required(ErrorMessage = "Пароль обязателен для ввода")]
     [NotMapped]
     public string UserPassword { get; set; }
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();

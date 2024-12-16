@@ -44,7 +44,6 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
 
         public async Task<IActionResult> OnPostDeleteMaterialAsync(int materialId)
         {
-            // Логируем начало удаления
             await _loggingService.LogAsync($"Начало удаления материала с ID {materialId}.");
 
             var material = await _context.BuildingMaterialsWarehouses
@@ -53,14 +52,12 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
 
             if (material == null)
             {
-                // Логируем, если материал не найден
                 await _loggingService.LogAsync($"Материал с ID {materialId} не найден.");
                 return NotFound();
             }
 
             await _loggingService.LogAsync($"Материал найден: {material.BuildingMaterial.NameBuildingMaterial}");
 
-            // Пытаемся удалить связанные заказы на материал
             var orderMaterial = await _context.BuildingMaterialsServicesOrders
                 .Where(b => b.BuildingMaterialId == material.BuildingMaterialId)
                 .ToListAsync();
@@ -71,12 +68,11 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
                 _context.BuildingMaterialsServicesOrders.RemoveRange(orderMaterial);
             }
 
-            // Удаление материала
+            //удаление материала со склада
             _context.BuildingMaterialsWarehouses.Remove(material);
 
             try
             {
-                // Ждем завершения всех операций
                 await _context.SaveChangesAsync();
                 await _loggingService.LogAsync($"Материал с ID {materialId} успешно удален.");
             }
@@ -86,7 +82,6 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
                 return StatusCode(500, "Ошибка при удалении материала.");
             }
 
-            // Перенаправление на страницу со складом
             await _loggingService.LogAsync($"Перенаправление на страницу склада после удаления материала.");
             return RedirectToPage("/WarehousesBuildingMaterials/WarehousesBuildingMaterials", new { id = material.WarehouseId });
         }

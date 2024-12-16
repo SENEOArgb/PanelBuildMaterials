@@ -11,7 +11,7 @@ namespace PanelBuildMaterials.Pages.ArchiveLogs
 
         public async Task OnGetAsync()
         {
-            // Загружаем архив из файла
+            //загрузка логов из json файла
             ArchiveLogs = await ArchiveLogsService.LoadArchiveAsync();
         }
     }

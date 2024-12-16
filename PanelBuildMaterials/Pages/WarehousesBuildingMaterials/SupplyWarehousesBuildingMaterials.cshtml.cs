@@ -138,7 +138,7 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
                     }
                 }
 
-                //Сохранение прочих изменений и их логгирование
+                //сохранение прочих изменений и их логгирование
                 if (_context.ChangeTracker.HasChanges())
                 {
                     await _loggingService.LogAsync("Контекст перед сохранением изменений: " + string.Join(", ", _context.ChangeTracker.Entries<BuildingMaterialsWarehouse>().Select(e => $"{e.Entity.BuildingMaterial.NameBuildingMaterial}: {e.State}")));
@@ -148,13 +148,12 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
 
                         await _loggingService.LogAsync($"Сохранено {changesSaved} изменений в базу данных.");
 
-                        // Перенаправление после успешного сохранения
                         await _loggingService.LogAsync($"Поставка на склад {WarehouseId} завершена.");
                         return RedirectToPage("/WarehousesBuildingMaterials/WarehousesBuildingMaterials", new { id = WarehouseId });
                     }
                     catch (Exception ex)
                     {
-                        // Логгирование ошибки
+                        //лог ошибки при поставке
                         await _loggingService.LogAsync($"Ошибка при поставке материалов: {ex.Message}");
                         await _loggingService.LogAsync($"Stack Trace: {ex.StackTrace}");
                         return StatusCode(500, "Произошла ошибка при обработке запроса.");
@@ -165,7 +164,6 @@ namespace PanelBuildMaterials.Pages.WarehousesBuildingMaterials
             }
             catch (Exception ex)
             {
-                // Log the exception
                 await _loggingService.LogAsync($"Ошибка при поставке материалов: {ex.Message}");
                 return StatusCode(500, "Произошла ошибка при обработке запроса.");
             }

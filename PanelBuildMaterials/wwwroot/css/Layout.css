@@ -1,4 +1,4 @@
-﻿/* Header стили */
+﻿
 header {
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@ header {
         height: 50px;
     }
 
-    /* Навигация */
+    /* Навигация для шапки */
     header nav ul {
         list-style: none;
         display: flex;
@@ -33,10 +33,9 @@ header {
             }
 
                 header nav ul li a:hover {
-                    color: #ffdf00; /* Цвет текста при наведении */
+                    color: #ffdf00; /* Цвет текста при наведении курсора */
                 }
 
-/* Футер */
 footer {
     background-color: #333;
     color: white;

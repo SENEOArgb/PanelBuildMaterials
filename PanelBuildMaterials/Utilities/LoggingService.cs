@@ -18,40 +18,36 @@ namespace PanelBuildMaterials.Utilities
 
         public async Task LogAsync(string description)
         {
-            // Получаем UserId из сессии
+            //получение ID пользователя из данных сессии
             var userId = _httpContextAccessor.HttpContext?.Session.GetInt32("UserId");
 
-            // Если UserId не найден, значит пользователь не авторизован
             if (!userId.HasValue)
             {
-                // Можно логировать действия неавторизованного пользователя или завершить работу
                 Console.WriteLine("Пользователь не авторизован.");
                 return;
             }
 
-            // Находим пользователя по UserId
             var user = await _context.Users.FirstOrDefaultAsync(u => u.UserId == userId.Value);
 
             if (user == null)
             {
-                // Если пользователь не найден в базе данных, выводим ошибку
                 Console.WriteLine($"Пользователь с ID {userId} не найден в базе данных.");
                 return;
             }
 
-            // Создаем запись в логе
+            //создание записи лога
             var log = new Log
             {
-                UserId = user.UserId,  // Используем UserId найденного пользователя
+                UserId = user.UserId,
                 DateTimeLog = DateTime.Now,
                 LogDescription = description
             };
 
-            // Добавляем запись в лог и сохраняем в базе данных
+            //добавление записи лога в БД и сохранение
             _context.Logs.Add(log);
             await _context.SaveChangesAsync();
 
-            // Записываем лог в файл
+            //запись лога в файл .txt
             var logMessage = $"[{DateTime.Now:dd.MM.yyyy HH:mm:ss}] UserLogin: {user.UserLogin}, Description: {description}{Environment.NewLine}";
             File.AppendAllText("History/logs.txt", logMessage);
         }

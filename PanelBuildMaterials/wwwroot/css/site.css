@@ -11,7 +11,7 @@ main {
     padding: 20px;
     background-color: #f9f9f9; /* Светлый фон */
     margin: 0 auto;
-    width: 80%; /* Центрируем контент */
+    width: 80%;
     max-width: 1200px;
 }
 
@@ -31,10 +31,8 @@ header {
     align-items: center;
 }
 
-/* Страница Авторизации и Регистрации*/
-/* Стили для страницы регистрации */
+/* Стили для страницы регистрации и авторизации*/
 
-/* Стили для страницы регистрации */
 .login-page p {
     margin-top: 20px;
     font-size: 14px;
@@ -52,17 +50,15 @@ header {
         text-decoration: underline;
     }
 
-/* Стили для страницы авторизации */
 .login-page {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto; /* Отступ сверху и снизу */
+    margin: 50px auto;
     padding: 20px;
-    background-color: #f9f9f9; /* Светлый фон */
+    background-color: #f9f9f9;
 }
 
-    /* Центрирование заголовка */
     .login-page .text-center {
         text-align: center;
         font-size: 1.8rem;
@@ -70,13 +66,13 @@ header {
         color: #333;
     }
 
-/* Стили для формы авторизации */
+/* Формы авторизации */
 .auth-form {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для формы */
-    max-width: 400px; /* Ограничение ширины формы */
+    max-width: 400px;
     width: 100%;
 }
 
@@ -95,7 +91,7 @@ header {
     /* Поля ввода */
     .auth-form .input-small {
         width: 100%;
-        height: 30px; /* Уменьшенная высота */
+        height: 30px;
         padding: 5px;
         font-size: 14px;
         border: 1px solid #ccc;
@@ -107,7 +103,6 @@ header {
             outline: none;
         }
 
-    /* Кнопка */
     .auth-form .btn-primary {
         width: 100%;
         padding: 10px;
@@ -124,12 +119,11 @@ header {
             background-color: #0056b3;
         }
 
-/* Центрирование текста заголовка */
 h1.text-center {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333; /* Цвет текста */
+    color: #333;
 }
 
 .logo img {
@@ -181,7 +175,7 @@ h1.text-center {
 
 .user-login {
     font-size: 14px;
-    color: #fff; /* Белый текст */
+    color: #fff;
     margin-top: 5px;
     cursor: pointer;
     display: block;
@@ -192,49 +186,49 @@ h1.text-center {
 .dropdown-menu {
     display: none; /* Скрываем меню по умолчанию */
     position: absolute;
-    top: 90px; /* Располагаем под логином */
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333; /* Темно-серый фон */
+    background-color: #333;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    list-style: none; /* Убираем маркеры */
+    list-style: none;
     padding: 10px 0;
-    max-width: 90%; /* Ограничиваем ширину в процентах от экрана */
-    min-width: 100px; /* Минимальная ширина */
-    width: auto; /* Автоматическая ширина */
-    overflow: hidden; /* Запретить переполнение */
+    max-width: 90%;
+    min-width: 100px;
+    width: auto;
+    overflow: hidden;
     z-index: 10;
-    box-sizing: border-box; /* Учет padding и border в ширине */
-    white-space: nowrap; /* Предотвращаем перенос текста */
+    box-sizing: border-box;
+    white-space: nowrap;
 }
 
     /* Стили ссылок внутри меню */
     .dropdown-menu li a {
-        color: #fff; /* Белый цвет текста */
+        color: #fff;
         text-decoration: none;
         font-size: 14px;
         padding: 5px 10px;
-        display: block; /* Ссылка заполняет всю ширину */
-        text-align: center; /* Выравнивание текста */
-        overflow: hidden; /* Предотвращаем переполнение текста */
-        text-overflow: ellipsis; /* Добавляем троеточие для переполненного текста */
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
         .dropdown-menu li a:hover {
-            background-color: #575757; /* Серый фон при наведении */
-            color: #fff; /* Белый текст */
+            background-color: #575757;
+            color: #fff;
         }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #fff; /* Белый фон таблицы */
-    border-radius: 8px; /* Закругленные края */
+    background-color: #fff;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
@@ -244,18 +238,18 @@ th, td {
 }
 
 th {
-    background-color: #e8ddfa; /* Светло-фиолетовый фон */
+    background-color: #e8ddfa;
     color: #333;
     font-weight: bold;
 }
 
 td {
-    background-color: #faf6ff; /* Светлый фон для строк */
+    background-color: #faf6ff;
     color: #333;
 }
 
     td:nth-child(odd) {
-        background-color: #f3ebff; /* Немного темнее для чередования */
+        background-color: #f3ebff;
     }
 
 button {
@@ -296,7 +290,7 @@ button {
 
 .form-button {
     width: 100%;
-    max-width: 150px; /* Ширина кнопок */
+    max-width: 150px;
     padding: 10px;
     text-align: center;
     font-size: 16px;
@@ -316,7 +310,7 @@ button {
         background-color: #0056b3;
     }
 
-/* Второстепенная кнопка (например, "Отменить") */
+/* Второстепенная кнопка */
 .btn-secondary {
     background-color: #f8f9fa;
     color: #6c757d;
@@ -342,8 +336,8 @@ footer {
 /* Унификация высоты и ширины полей формы */
 input[type="text"], input[type="password"] {
     width: calc(100% - 40px);
-    max-width: 400px; /* Ограничение ширины */
-    height: 40px; /* Единая высота полей */
+    max-width: 400px;
+    height: 40px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -354,14 +348,12 @@ input[type="text"], input[type="password"] {
         border-color: #6200ea; /* Фиолетовый бордер при фокусе */
     }
 
-/* Стили для страницы строительных материалов */
 .all-page {
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
 }
 
-/* Стили для поиска */
 .search-container {
     margin-bottom: 20px;
     text-align: center;
@@ -371,7 +363,7 @@ input[type="text"], input[type="password"] {
     display: flex;
     justify-content: center;
     gap: 10px;
-    flex-wrap: wrap; /* Для мобильных устройств */
+    flex-wrap: wrap;
 }
 
 .search-input {
@@ -382,7 +374,6 @@ input[type="text"], input[type="password"] {
     font-size: 14px;
 }
 
-/* Кнопка Найти */
 .primary-btn {
     background-color: #007bff;
     color: white;
@@ -401,7 +392,6 @@ input[type="text"], input[type="password"] {
         background-color: #0056b3;
     }
 
-/* Кнопка Сброс */
 .secondary-btn {
     background-color: #e0e0e0;
     color: #333;
@@ -421,7 +411,6 @@ input[type="text"], input[type="password"] {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-/* Стили для пагинации */
 .pagination-container {
     margin-top: 20px;
     text-align: center;
@@ -455,7 +444,6 @@ input[type="text"], input[type="password"] {
     color: #333;
 }
 
-/* Стили для кнопок действий */
 .action-link {
     color: #007bff;
     text-decoration: none;
@@ -481,9 +469,8 @@ input[type="text"], input[type="password"] {
         background-color: #c82333;
     }
 
-/* Кнопка "Перейти" */
 .go-btn {
-    background-color: #6c757d; /* Серый фон */
+    background-color: #6c757d;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -496,10 +483,9 @@ input[type="text"], input[type="password"] {
 }
 
     .go-btn:hover {
-        background-color: #495057; /* Темно-серый или почти черный при наведении */
+        background-color: #495057;
     }
 
-/* Кнопка Добавить */
 .add-btn {
     background-color: #28a745;
     color: white;
@@ -521,23 +507,16 @@ input[type="text"], input[type="password"] {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-/* Центрирование кнопки "Добавить" */
 .add-btn-container {
     text-align: center;
     margin-top: 20px; 
 }
 
-
-/*Дизайн для добавления/изменения*/
-
-/* Стили для страницы добавления записи в заказ */
 .manip-page {
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
 }
-
-/* Стили для формы */
 
 .form-manip {
     max-width: 800px;
@@ -548,13 +527,11 @@ input[type="text"], input[type="password"] {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Стили для группы полей ввода */
 .form-group {
     margin-bottom: 20px;
     width:100%;
 }
 
-/* Стили для меток */
 label {
     font-size: 16px;
     color: #333;
@@ -562,7 +539,6 @@ label {
     margin-bottom: 5px;
 }
 
-/* Стили для полей ввода */
 .form-control {
     width: 100%;
     padding: 10px;
@@ -572,7 +548,6 @@ label {
     box-sizing: border-box;
 }
 
-/* Стили для кнопки Рассчитать стоимость */
 #calculatePriceButton {
     background-color: #6c757d;
     color: white;
@@ -589,7 +564,6 @@ label {
         background-color: #5a6268;
     }
 
-/* Стили для кнопки Добавить */
 .btn-primary {
     background-color: #007bff;
     color: white;
@@ -606,14 +580,12 @@ label {
         background-color: #0056b3;
     }
 
-    /* Стили для кнопок при ховере */
     .btn-primary:disabled,
     #calculatePriceButton:disabled {
         background-color: #e0e0e0;
         cursor: not-allowed;
     }
 
-/* Стили для полей, которые не могут быть изменены */
 input[readonly] {
     background-color: #f0f0f0;
     cursor: not-allowed;

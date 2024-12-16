@@ -5,36 +5,36 @@ using PanelBuildMaterials.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Добавление контекста данных и подключение к базе данных
+//Добавление контекста данных и подключение к базе данных
 builder.Services.AddDbContext<PanelDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Добавление сессий
+//Добавление механизма сессии
 builder.Services.AddSession(options =>
 {
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Пример времени жизни сессии
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
 });
 
-// Добавление IHttpContextAccessor, чтобы можно было использовать его в LoggingService
+//Добавление IHttpContextAccessor, чтобы можно было использовать его в LoggingService
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// Добавление зависимостей
+//Добавление зависимостей
 builder.Services.AddScoped<LoggingService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddControllers();
-// Настройка логирования
+//Добавление логгирования
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
-// Добавление RazorPages
+//Использование RazorPages
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Включение использования сессий
+//Использование сессий
 app.UseSession();
 
 app.UseHttpsRedirection();
@@ -43,7 +43,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();
-// Маршруты для Razor Pages
+
+//Маршрутизация
 app.MapRazorPages();
 
 app.MapFallbackToPage("/Registration/Registration");

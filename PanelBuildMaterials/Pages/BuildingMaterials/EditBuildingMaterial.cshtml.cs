@@ -52,7 +52,7 @@ namespace PanelBuildMaterials.Pages.BuildingMaterials
             if (!ModelState.IsValid)
             {
                 Categories = new SelectList(await _context.Categories.ToListAsync(), "CategoryId", "NameCategory");
-                await _loggingService.LogAsync("ModelState содержит ошибки при сохранении изменений.");
+                await _loggingService.LogAsync("ModelState содержит ошибки при сохранении изменений");
                 foreach (var modelState in ModelState)
                 {
                     string errors = string.Join(", ", modelState.Value.Errors.Select(e => e.ErrorMessage));
@@ -63,7 +63,7 @@ namespace PanelBuildMaterials.Pages.BuildingMaterials
 
             try
             {
-                // Проверяем, существует ли объект в базе
+                //проверка наличия материала в бд по данному ID
                 var existingMaterial = await _context.BuildingMaterials.FindAsync(BuildingMaterials.BuildingMaterialId);
 
                 if (existingMaterial == null)
@@ -72,13 +72,13 @@ namespace PanelBuildMaterials.Pages.BuildingMaterials
                     return NotFound();
                 }
 
-                // Обновляем существующую запись
+                //изменение атрибутов записи
                 existingMaterial.NameBuildingMaterial = BuildingMaterials.NameBuildingMaterial;
                 existingMaterial.CategoryId = BuildingMaterials.CategoryId;
                 existingMaterial.RetailPrice = BuildingMaterials.RetailPrice;
                 existingMaterial.WholesalePrice = BuildingMaterials.WholesalePrice;
 
-                // Сохраняем изменения
+                //сохранение изменений
                 await _context.SaveChangesAsync();
 
                 await _loggingService.LogAsync($"Материал с ID {BuildingMaterials.BuildingMaterialId} обновлен успешно.");
@@ -86,8 +86,8 @@ namespace PanelBuildMaterials.Pages.BuildingMaterials
             }
             catch (Exception ex)
             {
-                await _loggingService.LogAsync($"Ошибка при сохранении материала с ID {BuildingMaterials.BuildingMaterialId}: {ex.Message}");
-                ModelState.AddModelError(string.Empty, "Ошибка при сохранении изменений. Попробуйте снова.");
+                await _loggingService.LogAsync($"Ошибка при сохранении материала с ID {BuildingMaterials.BuildingMaterialId}. Ошибки: {ex.Message}");
+                ModelState.AddModelError(string.Empty, "Ошибка при сохранении изменений, попробуйте снова.");
                 Categories = new SelectList(await _context.Categories.ToListAsync(), "CategoryId", "NameCategory");
                 return Page();
             }

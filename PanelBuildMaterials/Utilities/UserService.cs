@@ -17,7 +17,6 @@ namespace PanelBuildMaterials.Utilities
         public int? UserId => _httpContextAccessor.HttpContext?.Session.GetInt32("UserId");
         public string? UserLogin => _httpContextAccessor.HttpContext?.Session.GetString("UserLogin");
 
-        // Проверка прав доступа
         public string? UserLaws
         {
             get

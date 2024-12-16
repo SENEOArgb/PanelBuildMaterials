@@ -31,10 +31,6 @@ namespace PanelBuildMaterials.Utilities
             await File.WriteAllTextAsync(ArchiveFilePath, updatedJson);
         }
 
-        /// <summary>
-        /// Выгрузка логов
-        /// </summary>
-        /// <returns>Записи логов в отображении</returns>
         public static async Task<List<ArchiveLog>> LoadArchiveAsync()
         {
             if (!File.Exists(ArchiveFilePath))

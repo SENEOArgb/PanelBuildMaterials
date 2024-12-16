@@ -19,7 +19,7 @@ public partial class BuildingMaterialsServicesOrder
 
     public int? CountBuildingMaterial { get; set; }
 
-    [Range(0, double.MaxValue, ErrorMessage = "Цена заказа должна быть положительной.")]
+    [Range(0, double.MaxValue, ErrorMessage = "Цена заказа должна быть положительной")]
     public decimal OrderPrice { get; set; }
 
     public virtual BuildingMaterial? BuildingMaterial { get; set; }

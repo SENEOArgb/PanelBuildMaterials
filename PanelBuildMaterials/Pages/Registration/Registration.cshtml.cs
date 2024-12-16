@@ -22,7 +22,7 @@ namespace PanelBuildMaterials.Pages.Registration
 
         public IActionResult OnGet()
         {
-            ViewData["HideMenu"] = true; // Скрываем меню
+            ViewData["HideMenu"] = true; //сокрытие пунктов меню
             return Page();
         }
 
@@ -34,7 +34,7 @@ namespace PanelBuildMaterials.Pages.Registration
                 return Page();
             }
 
-            // Проверка, существует ли уже пользователь с таким логином
+            //проверка на существование регистрируемого пользователя
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.UserLogin == UserLogin);
             if (existingUser != null)
             {
@@ -42,10 +42,10 @@ namespace PanelBuildMaterials.Pages.Registration
                 return Page();
             }
 
-            // Хеширование пароля с помощью BCrypt
+            //хеширование пароля
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(UserPassword);
 
-            // Создание нового пользователя
+            //создание нового пользователя
             var user = new User
             {
                 UserLogin = UserLogin,
@@ -53,10 +53,10 @@ namespace PanelBuildMaterials.Pages.Registration
                 UserLaws = "Ограниченные"
             };
 
+            //добавление и сохранение пользователя в БД
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            // Перенаправление на страницу входа после успешной регистрации
             return RedirectToPage("/Login/Login");
         }
     }

@@ -25,8 +25,6 @@ namespace PanelBuildMaterials.Pages.Orders
 
         public IList<Order> Orders { get; set; } = new List<Order>();
 
-        // Пагинация
-        // Пагинация
         [BindProperty(SupportsGet = true)]
         public int CurrentPage { get; set; } = 1;
 
@@ -36,7 +34,7 @@ namespace PanelBuildMaterials.Pages.Orders
 
         public int TotalPages { get; set; }
 
-        private const int PageSize = 6; // Количество записей на странице
+        private const int PageSize = 6; //кол-во записей в таблице на странице
 
         public async Task OnGetAsync()
         {
@@ -46,6 +44,7 @@ namespace PanelBuildMaterials.Pages.Orders
             Orders = await _context.Orders
                 .Include(o => o.User)
                 .OrderBy(o => o.OrderId)
+                //Пока что в комментарии
                 //.Where(o => o.UserId == CurrentUserId)// отображение только заказов вошедших пользователей
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
@@ -54,7 +53,7 @@ namespace PanelBuildMaterials.Pages.Orders
 
         public async Task<IActionResult> OnPostDeleteOrderAsync(int id)
         {
-            // Находим заказ по ID
+            //выбор записи для удаления по ID
             var orderToDelete = await _context.Orders.FirstOrDefaultAsync(o => o.OrderId == id);
 
             if (orderToDelete == null)
@@ -65,11 +64,11 @@ namespace PanelBuildMaterials.Pages.Orders
 
             try
             {
-                // Удаление заказа из базы данных
+                //удаление записи из БД и сохранение данных
                 _context.Orders.Remove(orderToDelete);
                 await _context.SaveChangesAsync();
 
-                // Логирование успешного удаления
+                //лог удаления записи
                 await _loggingService.LogAsync($"Удален заказ ID={id}, Пользователь ID={orderToDelete.UserId}");
 
                 // Перенаправление на текущую страницу после успешного удаления
@@ -77,12 +76,13 @@ namespace PanelBuildMaterials.Pages.Orders
             }
             catch (Exception ex)
             {
-                // Логирование ошибки
+                //лог ошибки
                 await _loggingService.LogAsync($"Ошибка при удалении заказа ID={id}: {ex.Message}");
                 return StatusCode(500, "Ошибка при удалении заказа.");
             }
         }
 
+        //создание отчета по заказу
         public async Task<IActionResult> OnPostGenerateReportAsync(int id)
         {
             var order = await _context.Orders
@@ -105,7 +105,7 @@ namespace PanelBuildMaterials.Pages.Orders
                 mainPart.Document = new Document(new Body());
                 var body = mainPart.Document.Body;
 
-                // Заголовок
+                //заголовок отчета(текст)
                 body.AppendChild(new Paragraph(new Run(new Text("Отчет по заказу")) { RunProperties = new RunProperties { Bold = new Bold() } })
                 {
                     ParagraphProperties = new ParagraphProperties
@@ -114,17 +114,17 @@ namespace PanelBuildMaterials.Pages.Orders
                     }
                 });
 
-                // Основная информация
+                //общая информация по заказу
                 body.AppendChild(new Paragraph(new Run(new Text($"ID заказа: {order.OrderId}"))));
                 body.AppendChild(new Paragraph(new Run(new Text($"Пользователь: {order.User.UserLogin}"))));
                 body.AppendChild(new Paragraph(new Run(new Text($"Дата заказа: {order.DateOrder}"))));
                 body.AppendChild(new Paragraph(new Run(new Text($"Время заказа: {(order.TimeOrder.HasValue ? order.TimeOrder.Value.ToString() : "Не указано")}"))));
                 body.AppendChild(new Paragraph(new Run(new Text("\nДетали заказа:")) { RunProperties = new RunProperties { Bold = new Bold() } }));
 
-                // Таблица
+                //таблица для содержимого заказа
                 var table = new Table();
 
-                // Свойства таблицы
+                //атрибуты таблицы(ее параметры)
                 var tableProperties = new TableProperties(
                     new TableBorders(
                         new TopBorder { Val = BorderValues.Single, Size = 12 },
@@ -137,7 +137,7 @@ namespace PanelBuildMaterials.Pages.Orders
 
                 table.AppendChild(tableProperties);
 
-                // Заголовок таблицы
+                //заголовки атрибутов таблицы по модели
                 var headerRow = new TableRow();
                 headerRow.AppendChild(CreateTableCell("Стройматериал", true));
                 headerRow.AppendChild(CreateTableCell("Услуга", true));
@@ -145,7 +145,7 @@ namespace PanelBuildMaterials.Pages.Orders
                 headerRow.AppendChild(CreateTableCell("Цена", true));
                 table.AppendChild(headerRow);
 
-                // Заполнение строк таблицы
+                //заполнение таблицы содержимого заказа
                 foreach (var item in order.BuildingMaterialsServicesOrders)
                 {
                     var row = new TableRow();
@@ -164,7 +164,6 @@ namespace PanelBuildMaterials.Pages.Orders
             return File(memoryStream, "application/vnd.openxmlformats-officedocument.wordprocessingml.document", $"Order_Report_{id}.docx");
         }
 
-        // Метод для создания ячейки таблицы с отступами
         private TableCell CreateTableCell(string text, bool isHeader = false)
         {
             var run = new Run(new Text(text));

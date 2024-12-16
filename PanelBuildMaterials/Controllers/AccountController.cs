@@ -7,13 +7,11 @@ namespace PanelBuildMaterials.Controllers
     {
         public async Task<IActionResult> Logout()
         {
-            // Очистка сессии пользователя
+            //очистка сессии
             HttpContext.Session.Clear();
-
-            // Выполнить логаут
             await HttpContext.SignOutAsync();
 
-            // Перенаправить на страницу авторизации
+            //перенаправление на страницу для авторизации
             return RedirectToAction("Login", "Account");
         }
     }

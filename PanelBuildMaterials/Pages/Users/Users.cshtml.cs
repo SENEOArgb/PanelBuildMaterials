@@ -21,24 +21,22 @@ namespace PanelBuildMaterials.Pages.Users
         public int CurrentPage { get; set; }
         public int TotalPages { get; set; }
 
-        private const int PageSize = 6; // Количество записей на странице
+        private const int PageSize = 6; //кол-во записей на странице в таблице
 
         public async Task OnGetAsync(int currentPage = 1)
         {
             CurrentPage = currentPage;
 
-            // Общее количество записей
             var totalRecords = await _context.Users.CountAsync();
             TotalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
 
-            // Пагинация
             Users = await _context.Users
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();
         }
 
-        // Метод для удаления пользователя
+        //удаление пользователя
         public async Task<IActionResult> OnPostAsync(int id)
         {
             var userToDelete = await _context.Users.FindAsync(id);
@@ -51,10 +49,11 @@ namespace PanelBuildMaterials.Pages.Users
 
             try
             {
+                //удаление и сохранение изменений по пользователям в БД
                 _context.Users.Remove(userToDelete);
                 await _context.SaveChangesAsync();
 
-                // Логгирование удаления
+                //лог удаления
                 await _loggingService.LogAsync($"Удален пользователь ID={id}, Логин={userToDelete.UserLogin}");
                 return RedirectToPage(new { currentPage = CurrentPage });
             }

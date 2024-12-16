@@ -24,6 +24,7 @@ namespace PanelBuildMaterials.Pages.Categories
             return Page();
         }
 
+        //создание записи пр категории
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)

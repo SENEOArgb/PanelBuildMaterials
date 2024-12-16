@@ -26,7 +26,6 @@
                     @if (UserService.HasAccess("Полные"))
                     {
                         <td>
-                            <!-- Форма для удаления материала -->
                             <form method="post" asp-page-handler="DeleteMaterial" asp-route-materialId="@material.BuildingMaterialWarehouseId" style="display:inline;">
                                 <button type="submit" class="action-btn delete-btn" onclick="return confirm('Вы уверены, что хотите удалить данную запись?');" name="delete">Удалить</button>
                             </form>

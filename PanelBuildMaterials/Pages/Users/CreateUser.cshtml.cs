@@ -24,9 +24,9 @@ namespace PanelBuildMaterials.Pages.Users
         {
         }
 
+        //создание нового пользователя
         public async Task<IActionResult> OnPostAsync()
         {
-            // Исключаем поле UserPasswordHash из проверки
             ModelState.Remove("NewUser.UserPasswordHash");
 
             if (!ModelState.IsValid)
@@ -41,21 +41,21 @@ namespace PanelBuildMaterials.Pages.Users
 
             try
             {
-                // Проверяем, что пароль не пустой
+                //проверка что пароль не пустой
                 if (string.IsNullOrEmpty(NewUser.UserPassword))
                 {
                     ModelState.AddModelError(string.Empty, "Пароль не может быть пустым.");
                     return Page();
                 }
 
-                // Хэшируем пароль
+                //хэшироание пароля
                 NewUser.UserPasswordHash = BCrypt.Net.BCrypt.HashPassword(NewUser.UserPassword);
 
-                // Добавляем пользователя в базу
+                //добавление пользователя и сохранение в БД
                 _context.Users.Add(NewUser);
                 await _context.SaveChangesAsync();
 
-                // Логгируем
+                //лог добавления пользователя
                 await _loggingService.LogAsync($"Добавлен новый пользователь: Логин={NewUser.UserLogin}, Тип прав={NewUser.UserLaws}");
                 return RedirectToPage("/Users/Users");
             }

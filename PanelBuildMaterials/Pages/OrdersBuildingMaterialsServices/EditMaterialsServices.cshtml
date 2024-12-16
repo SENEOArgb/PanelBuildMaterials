@@ -41,6 +41,7 @@
             const count = Number(document.querySelector('input[name="BuildingMaterialsServices.CountBuildingMaterial"]').value);
 
             if (materialId > 0 && serviceId > 0 && count > 0) {
+                //рассчет с помощью контроллера
                 fetch(`/api/CalculatePrice/CalculatePrice?materialId=${materialId}&serviceId=${serviceId}&count=${count}`)
                     .then(response => {
                         if (!response.ok) {

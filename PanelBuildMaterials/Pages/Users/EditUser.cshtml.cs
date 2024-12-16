@@ -33,6 +33,7 @@ namespace PanelBuildMaterials.Pages.Users
             return Page();
         }
 
+        //изменение пользователя
         public async Task<IActionResult> OnPostAsync()
         {
             var userToUpdate = await _context.Users.FindAsync(User.UserId);
@@ -55,7 +56,7 @@ namespace PanelBuildMaterials.Pages.Users
             {
                 await _context.SaveChangesAsync();
 
-                // Логгируем изменения
+                //лог изменений пользователя
                 await _loggingService.LogAsync($"Изменен пользователь ID={User.UserId}, Логин={User.UserLogin}");
 
                 return RedirectToPage("/Users/Users");

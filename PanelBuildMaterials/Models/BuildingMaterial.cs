@@ -11,7 +11,7 @@ public partial class BuildingMaterial
     public int BuildingMaterialId { get; set; }
 
     [BindProperty]
-    [Required(ErrorMessage = "Поле 'Категория' обязательно.")]
+    [Required(ErrorMessage = "Поле категории является обязательным")]
     public int CategoryId { get; set; }
     public string NameBuildingMaterial { get; set; }
     public decimal RetailPrice { get; set; }

@@ -60,7 +60,6 @@
         </tbody>
     </table>
 
-    <!-- Кнопка добавления -->
     @if (UserService.HasAccess("Полные"))
     {
         <div class="add-btn-container">
@@ -68,7 +67,6 @@
         </div>
     }
 
-    <!-- Пагинация -->
     <div class="pagination-container">
         <a asp-page="/BuildingMaterials/BuildingMaterials" asp-route-CurrentPage="@(Model.CurrentPage - 1)" asp-route-SearchQuery="@Model.SearchQuery"
            class="pagination-btn" disabled="@(Model.CurrentPage == 1)">Назад</a>

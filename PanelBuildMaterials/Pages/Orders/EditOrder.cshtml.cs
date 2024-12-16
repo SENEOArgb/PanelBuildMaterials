@@ -47,7 +47,7 @@ namespace PanelBuildMaterials.Pages.Orders
         {
             if (!ModelState.IsValid)
             {
-                // Перезагрузка списка пользователей в случае ошибки валидации
+                //попытка загрузки списка пользователей
                 await LoadUsersAsync();
                 return Page();
             }
@@ -69,7 +69,7 @@ namespace PanelBuildMaterials.Pages.Orders
 
             try
             {
-                // Обновление свойств заказа
+                //изменение атрибутов записи заказа
                 orderToUpdate.UserId = Order.UserId;
                 orderToUpdate.DateOrder = Order.DateOrder;
                 orderToUpdate.TimeOrder = Order.TimeOrder;
@@ -82,11 +82,11 @@ namespace PanelBuildMaterials.Pages.Orders
             }
             catch (Exception ex)
             {
-                // Логирование ошибки
+                //лог ошибки
                 await _loggingService.LogAsync($"Ошибка при изменении заказа ID={Order.OrderId}: {ex.Message}");
                 ModelState.AddModelError(string.Empty, "Произошла ошибка при сохранении изменений.");
 
-                // Перезагрузка списка пользователей
+                //повторная попытка загрузки пользователей с перезагрузкой страницы
                 await LoadUsersAsync();
                 return Page();
             }

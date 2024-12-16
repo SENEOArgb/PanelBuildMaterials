@@ -53,7 +53,6 @@ namespace PanelBuildMaterials.Pages.Logs
             _context.Logs.Remove(log);
             await _context.SaveChangesAsync();
 
-            //редирект
             return RedirectToPage();
         }
     }

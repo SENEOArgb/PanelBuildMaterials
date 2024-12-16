@@ -81,7 +81,7 @@ namespace PanelBuildMaterials.Pages.Categories
             catch (Exception ex)
             {
                 await _loggingService.LogAsync($"Ошибка при сохранении категории с ID={Category.CategoryId}: {ex.Message}");
-                ModelState.AddModelError(string.Empty, "Ошибка при сохранении изменений. Попробуйте снова.");
+                ModelState.AddModelError(string.Empty, "Ошибка при сохранении изменений, попробуйте снова.");
                 return Page();
             }
         }

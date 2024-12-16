@@ -43,6 +43,7 @@ namespace PanelBuildMaterials.Pages.Services
             }
         }
 
+        //изменение услуги
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -58,6 +59,7 @@ namespace PanelBuildMaterials.Pages.Services
 
             try
             {
+                //нахождение услуги в БД для изменения
                 var existingService = await _context.Services.FindAsync(Service.ServiceId);
 
                 if (existingService == null)
@@ -66,11 +68,11 @@ namespace PanelBuildMaterials.Pages.Services
                     return NotFound();
                 }
 
-                // Обновляем поля
+                //изменение полей услуги
                 existingService.NameService = Service.NameService;
                 existingService.PriceService = Service.PriceService;
 
-                // Сохраняем изменения
+                //сохранение изменений и их логгирование
                 await _context.SaveChangesAsync();
 
                 await _loggingService.LogAsync($"Изменена услуга: ID={Service.ServiceId}, Новое наименование: {Service.NameService}, Новая стоимость: {Service.PriceService}");

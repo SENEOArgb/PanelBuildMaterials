@@ -69,7 +69,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                     return Page();
                 }
 
-                // Возвращение старого материала на склад
+                //если меняем материал, то возвращается старый на склад
                 if (existingOrderDetail.BuildingMaterialId.HasValue)
                 {
                     var oldWarehouseMaterial = await _context.BuildingMaterialsWarehouses
@@ -83,7 +83,7 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
                     }
                 }
 
-                // Списание нового материала
+                //обработка списания нового выбранного материала
                 var newWarehouseMaterial = await _context.BuildingMaterialsWarehouses
                     .Where(w => w.BuildingMaterialId == BuildingMaterialsServices.BuildingMaterialId)
                     .OrderByDescending(w => w.AmountBuildingMaterial)
@@ -98,10 +98,10 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
 
                 newWarehouseMaterial.AmountBuildingMaterial -= BuildingMaterialsServices.CountBuildingMaterial ?? 0;
 
-                // Пересчет стоимости
+                //перерасчет стоимости
                 BuildingMaterialsServices.OrderPrice = await _orderService.CalculateOrderPriceAsync(BuildingMaterialsServices);
 
-                // Обновление записи заказа
+                //обновление записи содержимого заказа
                 _context.Attach(BuildingMaterialsServices).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
 
