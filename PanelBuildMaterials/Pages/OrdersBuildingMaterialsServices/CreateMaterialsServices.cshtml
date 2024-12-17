@@ -46,13 +46,8 @@
             var serviceId = document.querySelector('#ServiceId').value;
             var count = document.querySelector('#CountBuildingMaterial').value;
 
-            //лог js для проверки
-            console.log("Material ID:", materialId);
-            console.log("Service ID:", serviceId);
-            console.log("Count:", count);
-
-            if ((!materialId && !serviceId) || (materialId && count <= 0)) {
-                alert('Пожалуйста, выберите хотя бы материал или услугу и укажите количество для материала.');
+            if (!materialId && !serviceId) {
+                alert('Пожалуйста, выберите хотя бы материал или услугу.');
                 return;
             }
 
@@ -73,13 +68,14 @@
                     if (data.orderPrice !== undefined) {
                         document.querySelector('#OrderPrice').value = data.orderPrice.toFixed(2);
                     } else {
-                        document.querySelector('#OrderPrice').value = "0";
+                        alert('Не удалось рассчитать стоимость.');
                     }
                 })
                 .catch(error => {
                     console.error("Ошибка при вычислении стоимости", error);
-                    document.querySelector('#OrderPrice').value = "0";
+                    alert('Произошла ошибка при расчете стоимости.');
                 });
         });
+
     </script>
 }

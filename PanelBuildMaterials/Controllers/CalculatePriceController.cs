@@ -16,7 +16,7 @@ namespace PanelBuildMaterials.Controllers
         }
 
         [HttpGet("CalculatePrice")]
-        public async Task<IActionResult> CalculatePrice(int? materialId, int? serviceId, int count)
+        public async Task<IActionResult> CalculatePrice(int? materialId, int? serviceId, int? count)
         {
             try
             {

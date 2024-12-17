@@ -9,10 +9,16 @@ namespace PanelBuildMaterials.Controllers
         {
             //очистка сессии
             HttpContext.Session.Clear();
+
+            foreach (var cookie in Request.Cookies.Keys)
+            {
+                Response.Cookies.Delete(cookie);
+            }
+
             await HttpContext.SignOutAsync();
 
             //перенаправление на страницу для авторизации
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("/Login/Login");
         }
     }
 }

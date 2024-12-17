@@ -81,6 +81,18 @@ namespace PanelBuildMaterials.Pages.OrdersBuildingMaterialsServices
             //если в поле выбора есть материал
             if (BuildingMaterialsServices.BuildingMaterialId != null)
             {
+                if (BuildingMaterialsServices.BuildingMaterialId != null || BuildingMaterialsServices.ServiceId != null)
+                {
+                    BuildingMaterialsServices.OrderPrice = await _orderService.CalculateOrderPriceAsync(BuildingMaterialsServices);
+                }
+                else
+                {
+                    AddErrorAndLog("Необходимо выбрать хотя бы материал или услугу.");
+                    await LoadDataAsync();
+                    return Page();
+                }
+
+
                 if (BuildingMaterialsServices.CountBuildingMaterial <= 0)
                 {
                     AddErrorAndLog("Необходимо указать количество для выбранного материала.");

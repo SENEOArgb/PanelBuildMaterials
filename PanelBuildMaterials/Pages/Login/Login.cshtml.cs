@@ -23,7 +23,12 @@ namespace PanelBuildMaterials.Pages.Login
 
         public IActionResult OnGet()
         {
-            ViewData["HideMenu"] = true; // Скрываем меню
+            ViewData["HideMenu"] = true;
+
+            Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";
+            Response.Headers["Pragma"] = "no-cache";
+            Response.Headers["Expires"] = "0";
+
             return Page();
         }
 
@@ -37,14 +42,21 @@ namespace PanelBuildMaterials.Pages.Login
 
             //поиск пользователя по логину в БД
             var user = await _context.Users.FirstOrDefaultAsync(u => u.UserLogin == UserLogin);
+
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Неверный логин или пароль.");
+                ModelState.AddModelError("UserLogin", "Пользователь с таким логином не найден.");
                 return Page();
             }
 
-            //проверка хеша ввеленного пароля с хешом этого пароля в БД
+            //проверка хеша пароля
             bool passwordMatch = BCrypt.Net.BCrypt.Verify(UserPassword, user.UserPasswordHash);
+
+            if (!passwordMatch)
+            {
+                ModelState.AddModelError("UserPassword", "Неверный пароль.");
+                return Page();
+            }
 
             //запоминание в сессии данных о пользователе
             if (passwordMatch)
@@ -53,13 +65,6 @@ namespace PanelBuildMaterials.Pages.Login
                 HttpContext.Session.SetString("UserLogin", user.UserLogin);
                 HttpContext.Session.SetString("UserLaws", user.UserLaws);
                 return RedirectToPage("/BuildingMaterials/BuildingMaterials");
-            }
-
-            //в случае ошибки
-            if (!passwordMatch)
-            {
-                ModelState.AddModelError(string.Empty, "Неверный логин или пароль.");
-                return Page();
             }
 
             //повторная проверка ID пользователя

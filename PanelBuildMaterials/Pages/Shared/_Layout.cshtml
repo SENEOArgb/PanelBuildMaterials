@@ -33,14 +33,19 @@
                 </ul>
             </nav>
         }
+        @{
+            var userId = Context.Session.GetInt32("UserId");
+            var userLogin = Context.Session.GetString("UserLogin");
+        }
+
         <div class="user-section">
-            @if (UserService.UserId != null)
+            @if (userId != null && !string.IsNullOrEmpty(userLogin))
             {
                 <div class="user-menu">
                     <img src="/images/user-icon.jpg" alt="User" class="icon-img" />
-                    <span id="user-login" class="user-login">@UserService.UserLogin</span>
+                    <span id="user-login" class="user-login">@userLogin</span>
                     <ul class="dropdown-menu" id="dropdown-menu">
-                        <li><a href="javascript:void(0);" id="logout-button">Выйти</a></li>
+                        <li><a href="/Account/Logout" id="logout-button">Выйти</a></li>
                     </ul>
                 </div>
             }
@@ -85,10 +90,10 @@
             const logoutButton = document.getElementById("logout-button");
             if (logoutButton) {
                 logoutButton.addEventListener("click", function (e) {
-                    e.preventDefault(); //отклонение поведения как ссылки(эффекты и т.п.)
+                    e.preventDefault();
                     sessionStorage.clear();
                     localStorage.clear();
-                    window.location.href = '/Login/Login';
+                    window.location.href = '/Account/Logout';
                 });
             }
         }

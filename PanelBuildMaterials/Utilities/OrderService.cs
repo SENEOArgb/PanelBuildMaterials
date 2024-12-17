@@ -171,6 +171,7 @@ namespace PanelBuildMaterials.Utilities
 
             decimal totalPrice = 0;
 
+            // Если выбран материал, рассчитываем стоимость материала
             if (orderDetail.BuildingMaterialId.HasValue && orderDetail.CountBuildingMaterial.HasValue)
             {
                 var material = await _context.BuildingMaterials
@@ -184,6 +185,7 @@ namespace PanelBuildMaterials.Utilities
                 totalPrice += materialPrice * orderDetail.CountBuildingMaterial.Value;
             }
 
+            // Если выбрана услуга, добавляем ее стоимость
             if (orderDetail.ServiceId.HasValue)
             {
                 var service = await _context.Services

@@ -1033,3 +1033,11 @@
 [15.12.2024 15:09:20] UserLogin: kassir, Description: Деталь добавлена в контекст.
 [15.12.2024 15:09:20] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
 [15.12.2024 15:09:20] UserLogin: kassir, Description: Запись успешно добавлена.
+[18.12.2024 00:29:41] UserLogin: kassir, Description: Добавлен заказ: ID=8, Пользователь ID=11, Дата=20.12.2024, Время=17:30
+[18.12.2024 00:30:00] UserLogin: kassir, Description: Попытка добавить запись для заказа с ID: 8
+[18.12.2024 00:30:01] UserLogin: kassir, Description: Деталь добавлена в контекст.
+[18.12.2024 00:30:01] UserLogin: kassir, Description: Изменения успешно сохранены в БД.
+[18.12.2024 00:30:01] UserLogin: kassir, Description: Запись успешно добавлена.
+[18.12.2024 00:31:14] UserLogin: kassir, Description: Удалена запись ID: 65 из заказа ID: 8. Количество возвращено на склад.
+[18.12.2024 01:03:22] UserLogin: admin, Description: Добавлена новая услуга: ID=9, Наименование: Без услуги, Стоимость: 0
+[18.12.2024 01:11:59] UserLogin: kassir, Description: Добавлен заказ: ID=9, Пользователь ID=11, Дата=19.12.2024, Время=17:24

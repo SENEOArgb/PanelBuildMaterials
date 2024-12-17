@@ -72,7 +72,8 @@ namespace PanelBuildMaterials.Pages.Orders
                 {
                     UserId = NewOrder.UserId,
                     DateOrder = NewOrder.DateOrder,
-                    TimeOrder = NewOrder.TimeOrder ?? new TimeOnly(0, 0)
+                    TimeOrder = NewOrder.TimeOrder.HasValue
+                    ? TimeOnly.ParseExact(NewOrder.TimeOrder.Value.ToString(), "HH:mm") : new TimeOnly(0, 0)
                 };
 
                 _context.Orders.Add(order);
