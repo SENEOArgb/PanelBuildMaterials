@@ -29,7 +29,10 @@
                         <li><a asp-page="/Logs/Logs">Логи</a></li>
                         <li><a asp-page="/ArchiveLogs/ArchiveLogs">Архив логов</a></li>
                     }
-                    <li><a asp-page="/Orders/Orders">Заказы</a></li>
+                    @if (UserService.HasAccess("Ограниченные"))
+                    {
+                        <li><a asp-page="/Orders/Orders">Заказы</a></li>
+                    }
                 </ul>
             </nav>
         }
@@ -45,7 +48,7 @@
                     <img src="/images/user-icon.jpg" alt="User" class="icon-img" />
                     <span id="user-login" class="user-login">@userLogin</span>
                     <ul class="dropdown-menu" id="dropdown-menu">
-                        <li><a href="/Account/Logout" id="logout-button">Выйти</a></li>
+                        <li><a href="/Login/Login" id="logout-button">Выйти</a></li>
                     </ul>
                 </div>
             }
@@ -93,7 +96,7 @@
                     e.preventDefault();
                     sessionStorage.clear();
                     localStorage.clear();
-                    window.location.href = '/Account/Logout';
+                    window.location.href = '/Login/Login';
                 });
             }
         }

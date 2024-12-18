@@ -43,7 +43,6 @@ namespace PanelBuildMaterials.Pages.Users
                 return NotFound();
             }
 
-            userToUpdate.UserLogin = User.UserLogin;
             userToUpdate.UserLaws = User.UserLaws;
 
             // Если пароль введен, то хешируем его

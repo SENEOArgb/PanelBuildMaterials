@@ -34,3 +34,17 @@
         <a asp-page="/BuildingMaterials/BuildingMaterials" style="display:inline;" class="action-btn delete-btn">Отменить</a>
     </form>
 </div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        $.validator.addMethod("validateprices", function (value, element) {
+            return this.optional(element) || /^\d+(\.\d+)?$/.test(value) && parseFloat(value) > 0;
+        }, "Значение должно быть положительным числом.");
+
+        $.validator.unobtrusive.adapters.addBool("validateprices");
+    </script>
+}

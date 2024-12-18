@@ -18,7 +18,7 @@ namespace PanelBuildMaterials.Controllers
             await HttpContext.SignOutAsync();
 
             //перенаправление на страницу для авторизации
-            return RedirectToAction("/Login/Login");
+            return RedirectToAction("Login", "Account");
         }
     }
 }

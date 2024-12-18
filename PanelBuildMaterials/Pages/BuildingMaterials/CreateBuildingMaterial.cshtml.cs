@@ -41,13 +41,24 @@ namespace PanelBuildMaterials.Pages.BuildingMaterials
 
         public async Task<IActionResult> OnPostAsync()
         {
+
+
             if (!ModelState.IsValid)
             {
                 await _loggingService.LogAsync("ModelState содержит ошибки:");
                 foreach (var modelState in ModelState)
                 {
-                    string errors = string.Join(", ", modelState.Value.Errors.Select(e => e.ErrorMessage));
-                    await _loggingService.LogAsync($"Поле: {modelState.Key}, Ошибки: {errors}");
+                    //string errors = string.Join(", ", modelState.Value.Errors.Select(e => e.ErrorMessage));
+                    //await _loggingService.LogAsync($"Поле: {modelState.Key}, Ошибки: {errors}");
+                    if (!decimal.TryParse(BuildingMaterial.RetailPrice.ToString(), out var retailPrice) || retailPrice <= 0)
+                    {
+                        ModelState.AddModelError("BuildingMaterial.RetailPrice", "Розничная цена должна быть положительным числом.");
+                    }
+
+                    if (!decimal.TryParse(BuildingMaterial.WholesalePrice.ToString(), out var wholesalePrice) || wholesalePrice <= 0)
+                    {
+                        ModelState.AddModelError("BuildingMaterial.WholesalePrice", "Оптовая цена должна быть положительным числом.");
+                    }
                 }
                 await LoadCategoriesAsync();
                 return Page();

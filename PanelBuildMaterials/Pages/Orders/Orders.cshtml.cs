@@ -45,7 +45,7 @@ namespace PanelBuildMaterials.Pages.Orders
                 .Include(o => o.User)
                 .OrderBy(o => o.OrderId)
                 //Пока что в комментарии
-                //.Where(o => o.UserId == CurrentUserId)// отображение только заказов вошедших пользователей
+                .Where(o => o.UserId == CurrentUserId)// отображение только заказов вошедших пользователей
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();

@@ -5,6 +5,8 @@ using PanelBuildMaterials.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 //Добавление контекста данных и подключение к базе данных
 builder.Services.AddDbContext<PanelDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
